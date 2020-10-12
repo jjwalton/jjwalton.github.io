@@ -6,10 +6,19 @@
     <description>Recent content in Talks on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="jjwalton.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aperiodic Order: The Mathematics of Systems of Approximate Symmetry</title>
+      <link>jjwalton.github.io/talk/2020_cardiff/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>jjwalton.github.io/talk/2020_cardiff/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aperiodic order: C*-algebras and tiling spaces</title>
