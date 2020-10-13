@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamie Walton</title>
-    <link>jjwalton.github.io/</link>
+    <link>/</link>
     <description>Recent content on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="jjwalton.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Talks</title>
-      <link>jjwalton.github.io/talk/</link>
+      <link>/talk/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/talk/</guid>
+      <guid>/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Papers</title>
-      <link>jjwalton.github.io/publication/</link>
+      <link>/publication/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/publication/</guid>
+      <guid>/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>jjwalton.github.io/misc/</link>
+      <link>/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/misc/</guid>
+      <guid>/misc/</guid>
       <description>&lt;p&gt;Link to some course notes etc. here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>jjwalton.github.io/notes/</link>
+      <link>/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/notes/</guid>
+      <guid>/notes/</guid>
       <description>&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../maths_notes/AT.pdf&#34;&gt;Algebraic topology notes&lt;/a&gt; for masters level course taught at Durham University, Michaelmas term of 2017&amp;ndash;18. They&amp;rsquo;re rather slow paced and overly wordy, so I also made a distilled version &amp;mdash; several students told me that they appreciated the extra detail though.&lt;/li&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title></title>
-      <link>jjwalton.github.io/teaching/</link>
+      <link>/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/teaching/</guid>
+      <guid>/teaching/</guid>
       <description>&lt;h1 id=&#34;next-academic-year&#34;&gt;Next academic year&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;H42PPY (Aerospace Maths 2)&lt;/li&gt;

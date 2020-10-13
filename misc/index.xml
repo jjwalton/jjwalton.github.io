@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamie Walton</title>
-    <link>jjwalton.github.io/misc/</link>
+    <link>/misc/</link>
     <description>Recent content on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     
-	    <atom:link href="jjwalton.github.io/misc/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>jjwalton.github.io/misc/links/</link>
+      <link>/misc/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/misc/links/</guid>
+      <guid>/misc/links/</guid>
       <description>&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Nottingham&amp;rsquo;s &lt;a href=&#34;https://www.nottingham.ac.uk/mathematics/&#34;&gt;School of Mathematical Sciences&lt;/a&gt;.&lt;/li&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title></title>
-      <link>jjwalton.github.io/misc/photos/</link>
+      <link>/misc/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jjwalton.github.io/misc/photos/</guid>
+      <guid>/misc/photos/</guid>
       <description>&lt;h1 id=&#34;some-photos&#34;&gt;Some Photos&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;../../photos/out_of_signal.jpg&#34;&gt;&lt;img src=&#34;../../photos/s_out_of_signal.jpg&#34; alt=&#34;Out of signal&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Out of signal&lt;/strong&gt;&lt;/em&gt; &amp;mdash; (Near Ardtoe; Nikon D3500, kit lens: AP&amp;ndash;P Nikkor, 18&amp;ndash;55mm F3.5&amp;ndash;5.6)&lt;/p&gt;
