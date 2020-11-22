@@ -352,18 +352,15 @@
   </url>
   
   <url>
-    <loc>/misc/</loc>
-    <priority>0</priority>
+    <loc>/misc/latex_tips/</loc>
   </url>
   
   <url>
     <loc>/misc/links/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/misc/photos/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -378,6 +375,10 @@
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/misc/</loc>
   </url>
   
 </urlset>
