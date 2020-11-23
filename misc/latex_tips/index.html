@@ -446,7 +446,7 @@
 <li><a href="#simple-beamer-slides">Simple Beamer slides</a></li>
 </ul>
 <h2 id="syntax-imposters">Syntax imposters</h2>
-<p>Some LaTeX produces the symbols you want when there&rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below, the suggestion may be the &ldquo;approved&rdquo; option without being the most commonly used!</p>
+<p>Some tex code produces the symbols you want when there&rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &ldquo;approved&rdquo; option without being the most commonly used!</p>
 <p>The below produce marginal differences in spacing:</p>
 <ul>
 <li><code>\colon</code> instead of <code>:</code>  e.g., <code>$f \colon X \to Y$</code> gives: $f \colon X \to Y$.</li>
@@ -483,16 +483,16 @@
 </li>
 </ul>
 <h2 id="characters-are-cheap">Characters are cheap</h2>
-<p>For me, cramped LaTeX code is a pain to read. It doesn&rsquo;t cost anything to add extra spaces or tabs, and they can sometimes gives the code a bit more room to breathe. Readability should be favoured over character count:</p>
+<p>For me, cramped LaTeX code is a pain to read. It doesn&rsquo;t cost anything to add extra spaces or tabs, which can give the code some more room to breathe. Readability should be favoured over character count:</p>
 <ul>
 <li>I mentioned the use of <code>\[ ... \]</code> for display equations above. I personally like to put the brackets on their own lines so that the display equation has some space around it (as it will do in your compiled output):
 <pre><code>We consider the sum
-[
+\[
 \sum_{n=1}^k P(n+4)^\ell
 \]
 for all $\ell &gt; 0$.
 </code></pre></li>
-<li>I added unnecessary spaces too above. Although I don&rsquo;t have a fixed convention for this, I do think this can help readability. For example,
+<li>I also added unnecessary spaces in the above. Although I don&rsquo;t have a fixed convention for this, I do think this can help readability. For example,
 <pre><code>e^z=\lim_{n\to\infty}\left(1+\frac{z}{n}\right)^n
 </code></pre><p>feels pretty cramped to me. I can read the below more quickly:</p>
 <pre><code>e^z = \lim_{n \to \infty} \left( 1 + \frac{z}{n} \right)^n
@@ -509,36 +509,39 @@ for all $\ell &gt; 0$.
 \end{itemize}
 </code></pre></li>
 </ul>
-<p>Of course, when referring to numbered theorems, sections etc., you should use labels (which means that any reordering won&rsquo;t mess up your references):</p>
+<p>Of course, when referring to numbered theorems, sections etc., you should use labels, so that any reordering won&rsquo;t mess up your references):</p>
 <ul>
-<li>If labelling a theorem, definition, lemma, corollary, proposition, equation, section, figure,&hellip; it&rsquo;s good to have a convention of starting your label with a corresponding tag: <code>\label{thm: main}</code>, <code>\label{def: fundamental group}</code>, <code>\label{lem: reparametrising}</code>, <code>\label{cor: A to B equivalence}</code>, <code>\label{prop: angle formula}</code>, <code>\label{eq: sum of powers}</code>, <code>\label{sec: Preliminaries} </code>, <code>\label{fig: Arnold's cat}</code>,&hellip; you get the picture. You can then refer back to your main theorem by writing something like <code>By Theorem \ref{thm: main}</code>. In most cases it&rsquo;ll save more time to be descriptive with the label (so you don&rsquo;t have to try to remember what this or that label actually refers to) than any neglible time saved with there being a few less characters. Indeed, many LaTeX editors bring up the list of labels you currently have when you start typing <code>\ref{...</code> and it&rsquo;s great when you don&rsquo;t have to go back to find that label but instead it being clear from the name. The same goes for sensible names for citations.</li>
+<li>If labelling a theorem, definition, lemma, corollary, proposition, equation, section, figure,&hellip; it&rsquo;s good to have a convention of starting your label with a corresponding tag: <code>\label{thm: main}</code>, <code>\label{def: fundamental group}</code>, <code>\label{lem: reparametrising}</code>, <code>\label{cor: A to B equivalence}</code>, <code>\label{prop: angle formula}</code>, <code>\label{eq: sum of powers}</code>, <code>\label{sec: Preliminaries} </code>, <code>\label{fig: Arnold's cat}</code>,&hellip; you get the picture. You can then refer back to your main theorem by writing something like <code>By Theorem \ref{thm: main}</code>. In most cases it&rsquo;ll save more time to be descriptive with the label compared to any neglible time saved by typing a few less characters. Indeed, many LaTeX editors bring up the list of labels you currently have when you start typing <code>\ref{...</code> and it&rsquo;s nice when you don&rsquo;t have to scroll back to the item to double-check it&rsquo;s the right one. The same goes for sensible labels for citations.</li>
 </ul>
 <h2 id="macros">Macros</h2>
 <p>I should probably use more macros. They can both improve readability and, of course, save time:</p>
 <ul>
 <li>
-<p>Sometimes one decides that notation should be changed. You&rsquo;ll often save time by writing a <code>\newcommand{\name}{definition}</code> from the outset, rather than committing early (one can also use <code>\def...</code>). For example, if I wanted to denote a mathematical gadget by <code>\Gamma</code>, then it&rsquo;s a good idea to put <code>\newcommand{\gadget}{\Gamma}</code> in the preamble, and using <code>\gadget</code> within the body of my document instead of <code>\Gamma</code>. If I later decided I should have called all gadgets something else, say <code>G</code> then I just need to change the <code>\Gamma</code> within the newcommand to <code>G</code>, which will redenote all of my gadgets. This is easier than doing a &lsquo;replace all&rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&rsquo;d been using <code>\Gamma</code> for my gadgets). The other advantage is that <code>\gadget</code> is self-explanatory: this is referring to a gadget, whereas <code>\Gamma</code> is referring to a Greek letter.</p>
+<p>Sometimes one decides that notation should be changed. You&rsquo;ll often save time by writing a <code>\newcommand{\name}{definition}</code> from the outset, rather than committing early (one can also use <code>\def...</code>). For example, if I wanted to denote a mathematical gadget by <code>\Gamma</code>, then it&rsquo;s a good idea to put <code>\newcommand{\gadget}{\Gamma}</code> in the preamble, and using <code>\gadget</code> within the body of my document instead of <code>\Gamma</code>. If I later decided I should have called all gadgets something else, say <code>G</code> then I just need to change the <code>\Gamma</code> within the newcommand to <code>G</code>, which will redenote all of my gadgets. This is easier than doing a &lsquo;replace all&rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&rsquo;d been using <code>\Gamma</code> for my gadgets). The other advantage is that <code>\gadget</code> is self-explanatory: this is referring to a gadget, whereas <code>\Gamma</code> is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to not change notation.</p>
 </li>
 <li>
-<p>It&rsquo;s common to have the following in the preamble: <code>\newcommand{\R}{\mathbb{R}}</code> (or <code>\def\R{\mathbb{R}}</code>) for $ \mathbb{R} $, and similarly <code>\C</code>, <code>\Z</code>, <code>\Q</code>, <code>\N</code> for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$. Sometimes, as here, shorter is also easier to read.</p>
+<p>It&rsquo;s common to have the following in the preamble: <code>\newcommand{\R}{\mathbb{R}}</code> (or <code>\def\R{\mathbb{R}}</code>) for $ \mathbb{R} $, and similarly <code>\C</code>, <code>\Z</code>, <code>\Q</code>, <code>\N</code> for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$. This is surely a case where shorter also happens to be easier to read.</p>
+</li>
+<li>
+<p>If you use a lot of vectors, bra-kets or matrices of some size, a good macro will likely be useful.</p>
 </li>
 </ul>
 <h2 id="folder-structure">Folder structure</h2>
 <p>Especially for bigger projects (see also <a href="#course-material-maintenance">below</a> on course note recommendations), having a sensible folder/file structure can keep things more organised.</p>
 <ul>
 <li>
-<p>If your paper has a lot of figures, I think it makes sense to keep those in a separate folder (I usually have an <code>images</code> folder, which contains the images in pdf form, as well as an <code>svgs</code> sub-folder which contains the editable vector images, for me typically drawn in <a href="https://inkscape.org/">Inkscape</a>). When you include the figures into your paper (say, using <code>\includegraphics</code> or <code>\import</code>), you just need to point to the right file path by including the folder name, or by adding a <code>\graphicspath</code> in your preamble.</p>
+<p>When there are lots (or, in my opinion, even just <em>any</em>) figures, it makes sense to keep them in a separate folder. I usually have an <code>images</code> folder, which contains the images in pdf form, as well as an <code>svgs</code> sub-folder which contains the editable vector images, for me typically drawn in <a href="https://inkscape.org/">Inkscape</a>. When you include the figures into your paper (say, using <code>\includegraphics</code> or <code>\import</code>), you just need to point to the right file path by including the folder name, or by adding a <code>\graphicspath</code> in your preamble.</p>
 </li>
 <li>
-<p>Sometimes it makes sense to have a different tex file for each section. These can then be combined with the master tex file using <code>\input{filename}</code>, which basically copies everything from <code>filename.tex</code> into the corresponding place in the current document. One can also use <code>\include{filename}</code>, which clears the previous page before inclusion. One can also use <code>\includeonly{filename1, ... ,filenameN}</code>. This can be helpful for a large project on a slow computer if you only want to work on a small section at a time. The <code>import</code> package can also be used, which can be more powerful (e.g., if you want nested importing).</p>
+<p>Sometimes it makes sense to have a different tex file for each section. These can then be combined with the master tex file using <code>\input{filename}</code>, which basically copies everything from <code>filename.tex</code> into the corresponding place in the current document. One can also use <code>\include{filename}</code>, which clears the previous page before inclusion. One can also use <code>\includeonly{filename1, ... ,filenameN}</code>. This can be helpful for a large project (like a thesis or book), or if on a slow computer and you only want to work on a small section at a time. The <code>import</code> package can also be used, which can be more powerful (e.g., if you want nested importing).</p>
 </li>
 <li>
-<p>You can make your LaTeX folders look less cluttered by deleting the auxiliary and log files etc. This can be done automatically in Texmaker when it&rsquo;s closed when the &ldquo;Clean&rdquo; tool is enabled in preferences. This doesn&rsquo;t seem to work, though, if you open then close multiple tabs, and there are some arguments for not deleting these extra files anyway. Instead, you can change the output directories. Or you can just not get too hung up on a few extra files being there&hellip;</p>
+<p>You can make your LaTeX folders look less cluttered by deleting the auxiliary and log files etc. This can be done automatically by the &ldquo;Clean&rdquo; tool of Texmaker when it&rsquo;s closed (found in preferences). This doesn&rsquo;t seem to work, though, if you open then tabs, and there are some arguments for not deleting these extra files anyway. Instead, you could change the output directories to keep things tidier. Or you can just not get too hung up on a few extra files being there&hellip;</p>
 </li>
 </ul>
 <h2 id="course-material-maintenance">Course material maintenance</h2>
-<p>Courses can easily consist of 50 or more pdfs: workshop sheets, lecture notes/slides, problem sheets, their solutions, formula sheets, the booklet of course information,&hellip;.</p>
-<p>If any contain year-specific data then it becomes an incredibly tedious waste of time scanning through them at the beginning of a new term. I don&rsquo;t intend to promote a &ldquo;set it then forget it&rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.</p>
+<p>Courses can easily consist of 50 or more documents: workshop sheets, lecture notes/slides, problem sheets, their solutions, formula sheets, the booklet of course information,&hellip;.</p>
+<p>If any contain year-specific data then this forces an unnecessary and incredibly tedious waste of time scanning through all applicable at the beginning of a new term. I don&rsquo;t intend to promote a &ldquo;set it then forget it&rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.</p>
 <p>I&rsquo;m thinking of year-specific data like:</p>
 <ul>
 <li>dates/times: of classes, tests, office hours; year of the course;</li>
@@ -555,17 +558,17 @@ for all $\ell &gt; 0$.
 <p>Next, copy all of the <code>\newcommand</code>s into a single <code>sty</code> file; call it <code>variables.sty</code> or something. I tend to put this file in a subfolder <code>year_dependent</code> from the root folder of the course.</p>
 </li>
 <li>
-<p>Your LaTeX files need to know where to look for these commands. Add <code>\usepackage{../../year_dependent/variables}</code> to the preamble of each which needs access, where the number of <code>../</code> is just how many folders back you need to go to the root folder.</p>
+<p>Your tex files need to know where to look for these commands. Add <code>\usepackage{../../year_dependent/variables}</code> to the preamble of each which needs access, where the number of <code>../</code> is just how many folders back you need to go to the root folder.</p>
 </li>
 </ol>
-<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and everything will recompile to the new version. A lot less painless than scouring every file for possibly outdated culprits, and it only takes marginally longer to implement the first time (so pays big dividends already by the second).</p>
-<p>Some other tips on the course folder structure:</p>
+<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and everything will recompile to the new version. A lot less painless than scouring numerous files for possibly outdated culprits, and it only takes marginally longer to implement the first time (so pays big dividends already by the second).</p>
+<p>Some further tips on course folder structure:</p>
 <ul>
 <li>
 <p>Clearly it&rsquo;s cleaner to separate different components into their own folders, like a folder for &ldquo;Workshop sheets&rdquo; (or &ldquo;Problems classes&rdquo;), lecture notes/slides, exam files,&hellip; I&rsquo;d also say that a new folder for each problem sheet, within a <code>problem_sheets</code> folder, is also easier to navigate.</p>
 </li>
 <li>
-<p>You&rsquo;ll probably have a lot of duplication in preambles: your slides (if in separate chapters) will have the same preambles, your problem sheets will have the same preambles, and so on. So why not paste such a preamble into an <code>sty</code> file? Put an <code>sty_static</code> folder in the root, and in there put a different <code>type.sty</code> file for each type of resource. Then each problem sheet can start with <code>\usepackage{../../sty_static/problem_sheet}</code>, rather than multiple lines of the same copied preamble each time. This has two additional advantages: firstly, if for whatever reason one problem sheet has a unique property requiring a difference in the preamble, then this will be instantly apparent in its tex file (whos preamble will now only be a few lines). Secondly, if you decide you want to change the appearance of your problem sheets, you can do them all together by editing just one style file.</p>
+<p>You&rsquo;ll probably have a lot of duplication in preambles: your slides (if in separate chapters) will have the same preambles, your problem sheets will have the same preambles, and so on. So why not reduce redundancy and have just one <code>sty</code> file for each? Put an <code>sty_static</code> folder in the root, and in there put a <code>type.sty</code> file for each type of resource. Then each problem sheet can start with <code>\usepackage{../../sty_static/problem_sheet}</code>, rather than multiple lines of the same copied preamble each time. This has two additional advantages: firstly, if for whatever reason one problem sheet has a unique property necessitating a change in the preamble, then this will be instantly apparent in its tex file (whose preamble will now only be a few lines). Secondly, if you decide you want to change the appearance of your problem sheets, you can do them all together by editing just one style file.</p>
 </li>
 <li>
 <p>Similarly, you&rsquo;ll surely be using the same macros for maths symbols (like using <code>\newcommand{\R}{\mathbb{R}}</code>, as mentioned above). Instead of copying these into <em>every</em> tex file, why not just collect them in a single <code>sty</code> file? You can call it <code>commands.sty</code>, or something similar, put it into the <code>sty_static</code> folder mentioned above, and then just put <code>\usepackage{../../year_dependent/variables}</code> into each preamble rather than the full list of maths commands. Much neater.</p>
