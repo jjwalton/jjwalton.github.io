@@ -453,7 +453,7 @@
 <li><code>\mid</code> instead of <code>|</code> in set comprehension e.g., <code>$\{2x+3 \mid x&lt;2\}$</code> gives $ \{2x+3 \mid x&lt;2\} $. That looks a lot better than $ \{2x+3 | x&lt;2\} $, doesn&rsquo;t it? And no one wants to be artificially adding white space everywhere by writing something like <code>\{2x+3 \ | \ x&lt;2\}</code>.</li>
 <li><code>\coloneqq</code> instead of <code>:=</code> when defining an object, e.g., <code>\mathbb{T} \coloneqq \mathbb{R} / \mathbb{Z}</code>. This needs a package, such as <code>mathtools</code>.</li>
 </ul>
-<p>On the topic of spacing, a space following a <code>.</code> is interpretted as the end of a sentence. We should let the compiler know if that&rsquo;s not the case, because the spacing is different, such as when we have a mid-sentence appreviation like &ldquo;Dr.&rdquo; or &ldquo;e.g.&rdquo; (although some might say that an &ldquo;e.g. &quot; should always be an &ldquo;e.g., &quot; anyway, in which case the spacing issue won&rsquo;t occur):</p>
+<p>On the topic of spacing, a space following a <code>.</code> is interpretted as the end of a sentence. We should let the compiler know if that&rsquo;s not the case, because the spacing is different, such as when we have a mid-sentence abbreviation like &ldquo;Dr.&rdquo; or &ldquo;e.g.&rdquo; (although some might say that an &ldquo;e.g. &quot; should always be an &ldquo;e.g., &quot; anyway, in which case the spacing issue won&rsquo;t occur):</p>
 <ul>
 <li>Use a trailing backslash <code>.\</code> after a <code>.</code> not ending a sentence. For example: <code>Dr.\ X</code>.</li>
 </ul>
