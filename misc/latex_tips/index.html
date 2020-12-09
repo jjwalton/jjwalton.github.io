@@ -541,7 +541,7 @@ for all $\ell &gt; 0$.
 </ul>
 <h2 id="course-material-maintenance">Course material maintenance</h2>
 <p>Courses can easily consist of 50 or more documents: workshop sheets, lecture notes/slides, problem sheets, their solutions, formula sheets, the booklet of course information,&hellip;.</p>
-<p>If any contain year-specific data then this forces an unnecessary and incredibly tedious waste of time scanning through all applicable at the beginning of a new term. I don&rsquo;t intend to promote a &ldquo;set it then forget it&rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.</p>
+<p>If any contain year-specific data then this forces an unnecessary and incredibly tedious waste of time scanning for such updates at the beginning of a new term. I don&rsquo;t intend to promote a &ldquo;set it then forget it&rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.</p>
 <p>I&rsquo;m thinking of year-specific data like:</p>
 <ul>
 <li>dates/times: of classes, tests, office hours; year of the course;</li>
@@ -555,13 +555,13 @@ for all $\ell &gt; 0$.
 <p>If upgrading an old set of materials, go through each tex file to find data which will (or merely might) need updating between iterations. If starting on a new set of notes, of course just do this from the outset: replace the year-dependent data with a descriptive command, like <code>\spring_exam_date</code> or <code>\lecturer_name</code>. These should then be defined in the preamble of the tex file: <code>\newcommand{\spring_exam_date}{30\textsuperscript{th} January 2020}</code> or <code>\newcommand{\lecturer_name}{Prof.\ Smartypants}</code>. Make sure everything still compiles.</p>
 </li>
 <li>
-<p>Next, cut all of these <code>\newcommand</code>s into a single <code>sty</code> file; call it <code>commands.sty</code> or something. I tend to put this file in a subfolder <code>sty_static</code> from the root folder of the course.</p>
+<p>Next, cut all of these <code>\newcommand</code>s (from all tex files of your course) into a <em>single</em> <code>sty</code> file; call it <code>variables.sty</code> or something. I tend to put this file in a subfolder <code>year_dependent</code> from the root folder of the course.</p>
 </li>
 <li>
 <p>Your tex files need to know where to look for these commands. Add <code>\usepackage{../../year_dependent/variables}</code> to the preamble of each which needs access, where the number of <code>../</code> is just how many folders back you need to go to the root folder.</p>
 </li>
 </ol>
-<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and everything will recompile to the new version. A lot less painless than scouring numerous files for possibly outdated culprits, and it only takes marginally longer to implement the first time (so pays big dividends already by the second).</p>
+<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and everything will recompile to the new version. Far more painless than scouring numerous files for outdated culprits, and it even only takes marginally longer to implement the first time (and hence pays big dividends already by the second).</p>
 <p>Some further tips on course folder structure:</p>
 <ul>
 <li>
@@ -571,7 +571,7 @@ for all $\ell &gt; 0$.
 <p>You&rsquo;ll probably have a lot of duplication in preambles: your slides (if in separate chapters) will have the same preambles, your problem sheets will have the same preambles, and so on. So why not reduce redundancy and have just one <code>sty</code> file for each? Put an <code>sty_static</code> folder in the root, and in there put a <code>type.sty</code> file for each type of resource. Then each problem sheet can start with <code>\usepackage{../../sty_static/problem_sheet}</code>, rather than multiple lines of the same copied preamble each time. This has two additional advantages: firstly, if for whatever reason one problem sheet has a unique property necessitating a change in the preamble, then this will be instantly apparent in its tex file (whose preamble will now only be a few lines). Secondly, if you decide you want to change the appearance of your problem sheets, you can do them all together by editing just one style file.</p>
 </li>
 <li>
-<p>Similarly, you&rsquo;ll surely be using the same macros for maths symbols (like using <code>\newcommand{\R}{\mathbb{R}}</code>, as mentioned above). Instead of copying these into <em>every</em> tex file, why not just collect them in a single <code>sty</code> file? You can call it <code>commands.sty</code>, or something similar, put it into the <code>sty_static</code> folder mentioned above, and then just put <code>\usepackage{../../year_dependent/variables}</code> into each preamble rather than the full list of maths commands. Much neater.</p>
+<p>Similarly, you&rsquo;ll surely be using the same macros for maths symbols (like using <code>\newcommand{\R}{\mathbb{R}}</code>, as mentioned above). Instead of copying these into <em>every</em> tex file, why not just collect them in a single <code>sty</code> file? You can call it <code>commands.sty</code>, or something similar, put it into the <code>sty_static</code> folder mentioned above, and then just put <code>\usepackage{../../sty_static/commands}</code> into each preamble rather than the full list of maths commands. Much neater.</p>
 </li>
 </ul>
 <p>Putting all of the above together, our course will have something like the following folder structure:</p>
@@ -604,7 +604,7 @@ for all $\ell &gt; 0$.
 │      ├──2
 │      └──...
 ├──...
-</code></pre><p>In the above, <code>sty_static</code> holds the <code>sty</code> files for preambles and macros (such as for maths notation). The folder <code>year_dependent</code> contains everything we need to edit for a new year: the <code>variables.sty</code> file and maybe some individual files that might need updating (like QR codes to student participation activities).</p>
+</code></pre><p>In the above, <code>sty_static</code> holds the <code>sty</code> files for preambles and macros (such as for maths notation). The folder <code>year_dependent</code> contains everything we need to edit for a new year: the <code>variables.sty</code> file and maybe some individual files that might need updating (like images files for QR codes to student participation activities).</p>
 <p>In case it helps a single soul, I&rsquo;ve started a very basic <a href="/templates/2020_course.zip">template</a> implementing the above.</p>
 <h2 id="simple-beamer-slides">Simple Beamer slides</h2>
 <p>Maths talk/lecture slides are often made on Beamer. I regularly see the bottom navigation symbols displayed but have <em>never</em> seen them used:</p>

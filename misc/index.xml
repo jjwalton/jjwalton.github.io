@@ -122,7 +122,7 @@ for all $\ell &amp;gt; 0$.
 &lt;/ul&gt;
 &lt;h2 id=&#34;course-material-maintenance&#34;&gt;Course material maintenance&lt;/h2&gt;
 &lt;p&gt;Courses can easily consist of 50 or more documents: workshop sheets, lecture notes/slides, problem sheets, their solutions, formula sheets, the booklet of course information,&amp;hellip;.&lt;/p&gt;
-&lt;p&gt;If any contain year-specific data then this forces an unnecessary and incredibly tedious waste of time scanning through all applicable at the beginning of a new term. I don&amp;rsquo;t intend to promote a &amp;ldquo;set it then forget it&amp;rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.&lt;/p&gt;
+&lt;p&gt;If any contain year-specific data then this forces an unnecessary and incredibly tedious waste of time scanning for such updates at the beginning of a new term. I don&amp;rsquo;t intend to promote a &amp;ldquo;set it then forget it&amp;rdquo; approach of rarely updating course material, which we should try to improve on each iteration. But realistically, a lot of material will be re-used. Is fishing through for these simple changes each year (crossing fingers that none are missed) really the best way to motivate improvements to the material? Probably not.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m thinking of year-specific data like:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;dates/times: of classes, tests, office hours; year of the course;&lt;/li&gt;
@@ -136,13 +136,13 @@ for all $\ell &amp;gt; 0$.
 &lt;p&gt;If upgrading an old set of materials, go through each tex file to find data which will (or merely might) need updating between iterations. If starting on a new set of notes, of course just do this from the outset: replace the year-dependent data with a descriptive command, like &lt;code&gt;\spring_exam_date&lt;/code&gt; or &lt;code&gt;\lecturer_name&lt;/code&gt;. These should then be defined in the preamble of the tex file: &lt;code&gt;\newcommand{\spring_exam_date}{30\textsuperscript{th} January 2020}&lt;/code&gt; or &lt;code&gt;\newcommand{\lecturer_name}{Prof.\ Smartypants}&lt;/code&gt;. Make sure everything still compiles.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Next, cut all of these &lt;code&gt;\newcommand&lt;/code&gt;s into a single &lt;code&gt;sty&lt;/code&gt; file; call it &lt;code&gt;commands.sty&lt;/code&gt; or something. I tend to put this file in a subfolder &lt;code&gt;sty_static&lt;/code&gt; from the root folder of the course.&lt;/p&gt;
+&lt;p&gt;Next, cut all of these &lt;code&gt;\newcommand&lt;/code&gt;s (from all tex files of your course) into a &lt;em&gt;single&lt;/em&gt; &lt;code&gt;sty&lt;/code&gt; file; call it &lt;code&gt;variables.sty&lt;/code&gt; or something. I tend to put this file in a subfolder &lt;code&gt;year_dependent&lt;/code&gt; from the root folder of the course.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Your tex files need to know where to look for these commands. Add &lt;code&gt;\usepackage{../../year_dependent/variables}&lt;/code&gt; to the preamble of each which needs access, where the number of &lt;code&gt;../&lt;/code&gt; is just how many folders back you need to go to the root folder.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Voilà! Now at the start of the year, just update that small &lt;code&gt;sty&lt;/code&gt; file and everything will recompile to the new version. A lot less painless than scouring numerous files for possibly outdated culprits, and it only takes marginally longer to implement the first time (so pays big dividends already by the second).&lt;/p&gt;
+&lt;p&gt;Voilà! Now at the start of the year, just update that small &lt;code&gt;sty&lt;/code&gt; file and everything will recompile to the new version. Far more painless than scouring numerous files for outdated culprits, and it even only takes marginally longer to implement the first time (and hence pays big dividends already by the second).&lt;/p&gt;
 &lt;p&gt;Some further tips on course folder structure:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -152,7 +152,7 @@ for all $\ell &amp;gt; 0$.
 &lt;p&gt;You&amp;rsquo;ll probably have a lot of duplication in preambles: your slides (if in separate chapters) will have the same preambles, your problem sheets will have the same preambles, and so on. So why not reduce redundancy and have just one &lt;code&gt;sty&lt;/code&gt; file for each? Put an &lt;code&gt;sty_static&lt;/code&gt; folder in the root, and in there put a &lt;code&gt;type.sty&lt;/code&gt; file for each type of resource. Then each problem sheet can start with &lt;code&gt;\usepackage{../../sty_static/problem_sheet}&lt;/code&gt;, rather than multiple lines of the same copied preamble each time. This has two additional advantages: firstly, if for whatever reason one problem sheet has a unique property necessitating a change in the preamble, then this will be instantly apparent in its tex file (whose preamble will now only be a few lines). Secondly, if you decide you want to change the appearance of your problem sheets, you can do them all together by editing just one style file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Similarly, you&amp;rsquo;ll surely be using the same macros for maths symbols (like using &lt;code&gt;\newcommand{\R}{\mathbb{R}}&lt;/code&gt;, as mentioned above). Instead of copying these into &lt;em&gt;every&lt;/em&gt; tex file, why not just collect them in a single &lt;code&gt;sty&lt;/code&gt; file? You can call it &lt;code&gt;commands.sty&lt;/code&gt;, or something similar, put it into the &lt;code&gt;sty_static&lt;/code&gt; folder mentioned above, and then just put &lt;code&gt;\usepackage{../../year_dependent/variables}&lt;/code&gt; into each preamble rather than the full list of maths commands. Much neater.&lt;/p&gt;
+&lt;p&gt;Similarly, you&amp;rsquo;ll surely be using the same macros for maths symbols (like using &lt;code&gt;\newcommand{\R}{\mathbb{R}}&lt;/code&gt;, as mentioned above). Instead of copying these into &lt;em&gt;every&lt;/em&gt; tex file, why not just collect them in a single &lt;code&gt;sty&lt;/code&gt; file? You can call it &lt;code&gt;commands.sty&lt;/code&gt;, or something similar, put it into the &lt;code&gt;sty_static&lt;/code&gt; folder mentioned above, and then just put &lt;code&gt;\usepackage{../../sty_static/commands}&lt;/code&gt; into each preamble rather than the full list of maths commands. Much neater.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Putting all of the above together, our course will have something like the following folder structure:&lt;/p&gt;
@@ -185,7 +185,7 @@ for all $\ell &amp;gt; 0$.
 │      ├──2
 │      └──...
 ├──...
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In the above, &lt;code&gt;sty_static&lt;/code&gt; holds the &lt;code&gt;sty&lt;/code&gt; files for preambles and macros (such as for maths notation). The folder &lt;code&gt;year_dependent&lt;/code&gt; contains everything we need to edit for a new year: the &lt;code&gt;variables.sty&lt;/code&gt; file and maybe some individual files that might need updating (like QR codes to student participation activities).&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In the above, &lt;code&gt;sty_static&lt;/code&gt; holds the &lt;code&gt;sty&lt;/code&gt; files for preambles and macros (such as for maths notation). The folder &lt;code&gt;year_dependent&lt;/code&gt; contains everything we need to edit for a new year: the &lt;code&gt;variables.sty&lt;/code&gt; file and maybe some individual files that might need updating (like images files for QR codes to student participation activities).&lt;/p&gt;
 &lt;p&gt;In case it helps a single soul, I&amp;rsquo;ve started a very basic &lt;a href=&#34;/templates/2020_course.zip&#34;&gt;template&lt;/a&gt; implementing the above.&lt;/p&gt;
 &lt;h2 id=&#34;simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/h2&gt;
 &lt;p&gt;Maths talk/lecture slides are often made on Beamer. I regularly see the bottom navigation symbols displayed but have &lt;em&gt;never&lt;/em&gt; seen them used:&lt;/p&gt;
