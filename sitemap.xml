@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2021_bielefeld/</loc>
+    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2021-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2021_ritsumeikan/</loc>
+    <lastmod>2021-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -38,11 +58,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/mathematics-dynamical-systems-number-theory/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -69,11 +84,6 @@
   
   <url>
     <loc>/talk/2020_cardiff/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url>
   
