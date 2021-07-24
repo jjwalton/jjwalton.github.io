@@ -84,7 +84,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.9a0552b62c32ee3c2f9bfdd99d1ab027.css">
+  <link rel="stylesheet" href="/css/academic.min.2601df5967b7591a6d935a717f340143.css">
 
   
 
@@ -436,7 +436,7 @@
 <div class="universal-wrapper">
   
   <div class="article-style" itemprop="articleBody"><h1 id="latex-tips">LaTeX Tips</h1>
-<p>I am no accomplished LaTeX guru: anything more complicated than writing basic equations sends me to a search engine &mdash; inevitably then a nice Stack Exchange answer &mdash; rather than trying to remember what I did last time. However there are some tips I wish I&rsquo;d known about, or just implemented earlier: see in particular some simple (yet I reckon rarely used) organisational tips to <a href="#course-material-maintenance">make course material easily updatable between years</a>. I&rsquo;ve also added some personal preferences that I think make LaTeX code a little easier to digest.</p>
+<p>Below I&rsquo;ve recorded a few LaTeX tips which don&rsquo;t often appear in a first tutorial but I still wish I&rsquo;d known earlier. There are also some personal preferences which I think can make LaTeX code a little easier to digest.</p>
 <ul>
 <li><a href="#syntax-imposters">Syntax imposters</a></li>
 <li><a href="#characters-are-cheap">Characters are cheap</a></li>
@@ -451,11 +451,11 @@
 <ul>
 <li><code>\colon</code> instead of <code>:</code>  e.g., <code>$f \colon X \to Y$</code> gives: $f \colon X \to Y$.</li>
 <li><code>\mid</code> instead of <code>|</code> in set comprehension e.g., <code>$\{2x+3 \mid x&lt;2\}$</code> gives $ \{2x+3 \mid x&lt;2\} $. That looks a lot better than $ \{2x+3 | x&lt;2\} $, doesn&rsquo;t it? And no one wants to be artificially adding white space everywhere by writing something like <code>\{2x+3 \ | \ x&lt;2\}</code>.</li>
-<li>Using apostrophes or quotation marks as single and double quotations only gives closing ones, so it looks totally wrong: <code>'apostrophes'</code> gives $\text{'}\text{apostrophes}\text{'}$ and <code>&quot;quotations&quot;</code> gives $\text{&quot;}\text{quotations}\text{&quot;}$. You can fix this by replacing an opening apostrophy with a backtick <code>`</code> (probably to the left of the 1 key on your keyboard), and an opening double quotation mark can be replaced with two backticks <code>``</code>, later followed by a closing pair of apostrophes <code>''</code>. There are also packages like <code>csquotes</code> which can adjust this for you whilst still using usual quotation marks in your editor.</li>
+<li>Apostrophes and quotation marks only give closing ones: <code>'apostrophes'</code> gives $\text{'}\text{apostrophes}\text{'}$ and <code>&quot;quotations&quot;</code> gives $\text{&quot;}\text{quotations}\text{&quot;}$. Replace an opening apostrophy with a backtick <code>`</code> (probably to the left of the 1 key on your keyboard), and an opening double quotation mark can be replaced with two backticks <code>``</code>, later followed by a closing pair of apostrophes <code>''</code>. There are also packages like <code>csquotes</code> which can adjust this for you whilst still using usual quotation marks in your editor.</li>
 <li>Some standard mathematical functions can be put into equations using a preceding backslash <code>/</code>. Writing <code>cos(x)</code> incorrectly italicises to $cos(x)$, whereas <code>\cos(x)</code> gives the better $\cos(x)$. The same goes for the other trig functions and their hyperbolic versions. Other useful ones include <code>\ln</code>, <code>\log</code>, <code>\det</code>, <code>\gcd</code>, <code>\inf</code>, <code>\sup</code>, <code>\lim</code>, <code>\hom</code>, <code>\ker</code>.</li>
 <li><code>\coloneqq</code> instead of <code>:=</code> when defining an object, e.g., <code>\mathbb{T} \coloneqq \mathbb{R} / \mathbb{Z}</code>. This needs a package, such as <code>mathtools</code>.</li>
 </ul>
-<p>On the topic of spacing, a space following a <code>.</code> is interpretted as the end of a sentence. We should let the compiler know if that&rsquo;s not the case, because the spacing is different, such as when we have a mid-sentence abbreviation like &ldquo;Dr.&rdquo; or &ldquo;e.g.&rdquo; (although some might say that an &ldquo;e.g. &quot; should always be an &ldquo;e.g., &quot; anyway, in which case the spacing issue won&rsquo;t occur):</p>
+<p>On the topic of spacing, a space following a <code>.</code> is interpretted as the end of a sentence. That gives the incorrect spacing when we have a mid-sentence abbreviation like &ldquo;Dr.&rdquo; or &ldquo;e.g.&rdquo; (although arguably an &ldquo;e.g. &quot; should usually be an &ldquo;e.g., &quot; anyway, in which case the spacing issue won&rsquo;t occur):</p>
 <ul>
 <li>Use a trailing backslash <code>.\</code> after a <code>.</code> not ending a sentence. For example: <code>Dr.\ X</code>.</li>
 </ul>
@@ -469,7 +469,7 @@
 <p>The shortest, the <strong>hyphen</strong>, uses a single <code>-</code>. These are used for double-barrelled names (e.g., <code>Swinnerton-Dyer</code>) or compound words (e.g., <code>double-barrelled</code>).</p>
 </li>
 <li>
-<p>The medium <strong>en-dash</strong> is typed <code>--</code>. It is used for ranges in both numbers (e.g., <code>See pages 6--19</code>) and when referring to a range of authors. For example, we would write <code>The Gauss--Bonnet Theorem</code> or <code>The Birch--Swinnerton-Dyer Conjecture</code>; in this case the length of dashes helpfully informs us that there are two (not one or three) mathematicians involved: Birch and Swinnerton–Dyer.</p>
+<p>The medium <strong>en-dash</strong> is typed <code>--</code>. It is used for ranges in both numbers (e.g., <code>See pages 6--19</code>) and when referring to a range of authors. For example, we would write <code>The Gauss--Bonnet Theorem</code> or <code>The Birch--Swinnerton-Dyer Conjecture</code>. In the latter case the length of dashes helpfully informs us that there are two (not one or three) mathematicians involved: Birch and Swinnerton–Dyer.</p>
 </li>
 <li>
 <p>Logically enough, for the longer <strong>em-dash</strong> we adjoin yet one more hyphen: <code>---</code>. They are those standard grammatical dashes used to break up sentences.</p>
@@ -487,7 +487,7 @@
 <h2 id="characters-are-cheap">Characters are cheap</h2>
 <p>For me, cramped LaTeX code is a pain to read. It doesn&rsquo;t cost anything to add extra spaces or tabs, which can give the code some more room to breathe. Readability should be favoured over character count:</p>
 <ul>
-<li>I mentioned the use of <code>\[ ... \]</code> for display equations above. I personally like to put the brackets on their own lines so that the display equation has some space around it (as it will do in your compiled output):
+<li>Use of <code>\[ ... \]</code> for display equations is mentioned above. I personally like to put the brackets on their own lines so that the display equation has some space around it (as it will do in your compiled output):
 <pre><code>We consider the sum
 \[
 \sum_{n=1}^k P(n+4)^\ell
@@ -501,13 +501,13 @@ for all $\ell &gt; 0$.
 </code></pre></li>
 <li>Use whitespace when nesting commands and writing lists too. For example, adding tabs before <code>\item</code>s can help with readability:
 <pre><code>\begin{itemize}
-  \item Option A;
-  \item Option B;
-  \item or one of these options:
-  \begin{enumerate}
+	\item Option A;
+	\item Option B;
+	\item or one of these options:
+	\begin{enumerate}
       \item the option C(i)
       \item the option C(ii)
-  \end{enumerate}
+	\end{enumerate}
 \end{itemize}
 </code></pre></li>
 </ul>
@@ -522,7 +522,7 @@ for all $\ell &gt; 0$.
 <p>Sometimes one decides that notation should be changed. You&rsquo;ll often save time by writing a <code>\newcommand{\name}{definition}</code> from the outset, rather than committing early (one can also use <code>\def...</code>). For example, if I wanted to denote a mathematical gadget by <code>\Gamma</code>, then it&rsquo;s a good idea to put <code>\newcommand{\gadget}{\Gamma}</code> in the preamble, and using <code>\gadget</code> within the body of my document instead of <code>\Gamma</code>. If I later decided I should have called all gadgets something else, say <code>G</code> then I just need to change the <code>\Gamma</code> within the newcommand to <code>G</code>, which will redenote all of my gadgets. This is easier than doing a &lsquo;replace all&rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&rsquo;d been using <code>\Gamma</code> for my gadgets). The other advantage is that <code>\gadget</code> is self-explanatory: this is referring to a gadget, whereas <code>\Gamma</code> is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to keep notation.</p>
 </li>
 <li>
-<p>It&rsquo;s common to have the following in the preamble: <code>\newcommand{\R}{\mathbb{R}}</code> (or <code>\def\R{\mathbb{R}}</code>) for $ \mathbb{R} $, and similarly <code>\C</code>, <code>\Z</code>, <code>\Q</code>, <code>\N</code> for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$. This is surely a case where shorter also happens to be easier to read.</p>
+<p>I think basically everyone uses the following: <code>\newcommand{\R}{\mathbb{R}}</code> (or <code>\def\R{\mathbb{R}}</code>) for $ \mathbb{R} $, and similarly <code>\C</code>, <code>\Z</code>, <code>\Q</code>, <code>\N</code> for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$.</p>
 </li>
 <li>
 <p>If you use a lot of vectors, bra-kets or matrices of some size, a good macro will likely be useful.</p>
@@ -727,7 +727,7 @@ for all $\ell &gt; 0$.
     
     
     
-    <script src="/js/academic.min.3394a224b26ce58ff36f44c54743e0ab.js"></script>
+    <script src="/js/academic.min.79fd01dcc54fc3c04fcf5dd1a5f94d87.js"></script>
 
     
 
