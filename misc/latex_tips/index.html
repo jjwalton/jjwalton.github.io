@@ -488,25 +488,25 @@
 <p>For me, cramped LaTeX code is a pain to read. It doesn&rsquo;t cost anything to add extra spaces or tabs, which can give the code some more room to breathe. Readability should be favoured over character count:</p>
 <ul>
 <li>Use of <code>\[ ... \]</code> for display equations is mentioned above. I personally like to put the brackets on their own lines so that the display equation has some space around it (as it will do in your compiled output):
-<pre><code>We consider the sum
+<pre tabindex="0"><code>We consider the sum
 \[
 \sum_{n=1}^k P(n+4)^\ell
 \]
 for all $\ell &gt; 0$.
 </code></pre></li>
 <li>I also added unnecessary spaces in the above. Although I don&rsquo;t have a fixed convention for this, I do think this can help readability. For example,
-<pre><code>e^z=\lim_{n\to\infty}\left(1+\frac{z}{n}\right)^n
-</code></pre><p>feels pretty cramped to me. I can read the below more quickly:</p>
-<pre><code>e^z = \lim_{n \to \infty} \left( 1 + \frac{z}{n} \right)^n
+<pre tabindex="0"><code>e^z=\lim_{n\to\infty}\left(1+\frac{z}{n}\right)^n
+</code></pre>feels pretty cramped to me. I can read the below more quickly:
+<pre tabindex="0"><code>e^z = \lim_{n \to \infty} \left(1 + \frac{z}{n} \right)^n
 </code></pre></li>
 <li>Use whitespace when nesting commands and writing lists too. For example, adding tabs before <code>\item</code>s can help with readability:
-<pre><code>\begin{itemize}
+<pre tabindex="0"><code>\begin{itemize}
 	\item Option A;
 	\item Option B;
 	\item or one of these options:
 	\begin{enumerate}
-      \item the option C(i)
-      \item the option C(ii)
+		\item the option C(i)
+		\item the option C(ii)
 	\end{enumerate}
 \end{itemize}
 </code></pre></li>
@@ -538,7 +538,7 @@ for all $\ell &gt; 0$.
 <p>Sometimes it makes sense to have a different tex file for each section. These can then be combined with the master tex file using <code>\input{filename}</code>, which basically copies everything from <code>filename.tex</code> into the corresponding place in the current document. One can also use <code>\include{filename}</code>, which clears the previous page before inclusion. One can also use <code>\includeonly{filename1, ... ,filenameN}</code>. This can be helpful for a large project (like a thesis or book), or if on a slow computer and you only want to work on a small section at a time. The <code>import</code> package can also be used, which can be more powerful (e.g., if you want nested importing).</p>
 </li>
 <li>
-<p>You can make your LaTeX folders look less cluttered by deleting the auxiliary and log files etc. This can be done automatically by the &ldquo;Clean&rdquo; tool of Texmaker when it&rsquo;s closed (found in preferences). This doesn&rsquo;t seem to work, though, if you open then tabs, and there are some arguments for not deleting these extra files anyway. Instead, you could change the output directories to keep things tidier. Or you can just not get too hung up on a few extra files being there&hellip;</p>
+<p>You can make your LaTeX folders look less cluttered by deleting the auxiliary and log files etc. This can be done automatically by the &ldquo;Clean&rdquo; tool of Texmaker when it&rsquo;s closed (found in preferences). This doesn&rsquo;t seem to work, though, if you working with more tabs, and there are some arguments for not deleting these extra files anyway. Instead, you could change the output directories to keep things tidier. Or you can just not get too hung up on a few extra files being there&hellip;</p>
 </li>
 </ul>
 <h2 id="course-material-maintenance">Course material maintenance</h2>
@@ -563,7 +563,7 @@ for all $\ell &gt; 0$.
 <p>Your tex files need to know where to look for these commands. Add <code>\usepackage{../../year_dependent/variables}</code> to the preamble of each which needs access, where the number of <code>../</code> is just how many folders back you need to go to the root folder.</p>
 </li>
 </ol>
-<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and everything will recompile to the new version. Far more painless than scouring numerous files for outdated culprits, and it even only takes marginally longer to implement the first time (and hence pays big dividends already by the second).</p>
+<p>Voilà! Now at the start of the year, just update that small <code>sty</code> file and when recompiling each file you&rsquo;ll get the new version (I should now look up LaTeX makefiles, to find an easy way of recompiling an entire project). This is far less tedious than scouring numerous files for outdated culprits, and it even only takes marginally longer to implement the first time (and hence pays big dividends already by the second).</p>
 <p>Some further tips on course folder structure:</p>
 <ul>
 <li>
@@ -573,11 +573,11 @@ for all $\ell &gt; 0$.
 <p>You&rsquo;ll probably have a lot of duplication in preambles: your slides (if in separate chapters) will have the same preambles, your problem sheets will have the same preambles, and so on. So why not reduce redundancy and have just one <code>sty</code> file for each? Put an <code>sty_static</code> folder in the root, and in there put a <code>type.sty</code> file for each type of resource. Then each problem sheet can start with <code>\usepackage{../../sty_static/problem_sheet}</code>, rather than multiple lines of the same copied preamble each time. This has two additional advantages: firstly, if for whatever reason one problem sheet has a unique property necessitating a change in the preamble, then this will be instantly apparent in its tex file (whose preamble will now only be a few lines). Secondly, if you decide you want to change the appearance of your problem sheets, you can do them all together by editing just one style file.</p>
 </li>
 <li>
-<p>Similarly, you&rsquo;ll surely be using the same macros for maths symbols (like using <code>\newcommand{\R}{\mathbb{R}}</code>, as mentioned above). Instead of copying these into <em>every</em> tex file, why not just collect them in a single <code>sty</code> file? You can call it <code>commands.sty</code>, or something similar, put it into the <code>sty_static</code> folder mentioned above, and then just put <code>\usepackage{../../sty_static/commands}</code> into each preamble rather than the full list of maths commands. Much neater.</p>
+<p>Similarly, you&rsquo;ll surely be using the same macros for maths symbols (like using <code>\newcommand{\R}{\mathbb{R}}</code>, as mentioned above). Instead of copying these into <em>every</em> tex file, why not just collect them in a single <code>sty</code> file? You can call it <code>macros.sty</code>, or something similar, put it into the <code>sty_static</code> folder mentioned above, and then just put <code>\usepackage{../../sty_static/macros}</code> into each preamble rather than the full list of maths commands. Much neater.</p>
 </li>
 </ul>
 <p>Putting all of the above together, our course will have something like the following folder structure:</p>
-<pre><code>course
+<pre tabindex="0"><code>course
 ├──booklet
 ├──lecture_slides
 │   │   └──images
@@ -606,7 +606,7 @@ for all $\ell &gt; 0$.
 │      ├──2
 │      └──...
 ├──...
-</code></pre><p>In the above, <code>sty_static</code> holds the <code>sty</code> files for preambles and macros (such as for maths notation). The folder <code>year_dependent</code> contains everything we need to edit for a new year: the <code>variables.sty</code> file and maybe some individual files that might need updating (like images files for QR codes to student participation activities).</p>
+</code></pre><p>In the above, <code>sty_static</code> holds the <code>sty</code> files for preambles and macros (such as for maths notation). The folder <code>year_dependent</code> contains everything we need to edit for a new year: the <code>variables.sty</code> file and maybe some individual files that might need updating (like image files for QR codes to student participation activities).</p>
 <p>In case it helps a single soul, I&rsquo;ve started a very basic <a href="/templates/2020_course.zip">template</a> implementing the above.</p>
 <h2 id="simple-beamer-slides">Simple Beamer slides</h2>
 <p>Maths talk/lecture slides are often made on Beamer. I regularly see the bottom navigation symbols displayed but have <em>never</em> seen them used:</p>

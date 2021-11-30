@@ -6,10 +6,28 @@
     <description>Recent content in James Walton on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/james-walton/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Substitutions on compact alphabets</title>
+      <link>/publication/2021mrwb/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2021mrwb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An aperiodic tile with edge-to-edge orientational matching rules</title>
+      <link>/publication/2021ww/</link>
+      <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2021ww/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aperiodicity, rotational tiling spaces and topological space groups</title>
@@ -17,6 +35,15 @@
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>/publication/2021hw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral properties of substitutions on compact alphabets</title>
+      <link>/publication/2021mrw/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2021mrw/</guid>
       <description></description>
     </item>
     
@@ -32,7 +59,7 @@
     <item>
       <title>Cut and project sets with polytopal window I: Complexity</title>
       <link>/publication/2020kw_a/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/2020kw_a/</guid>
       <description></description>
@@ -53,15 +80,6 @@
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/2019hjkw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An aperiodic tile with edge-to-edge orientational matching rules</title>
-      <link>/publication/2019ww/</link>
-      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2019ww/</guid>
       <description></description>
     </item>
     

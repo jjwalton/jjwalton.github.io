@@ -6,10 +6,28 @@
     <description>Recent content in Talks on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TBC</title>
+      <link>/talk/2021_ou/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2021_ou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the theory of symbolic substitutions to compact alphabets</title>
+      <link>/talk/2021_owns/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2021_owns/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Substitutions on compact alphabets</title>
