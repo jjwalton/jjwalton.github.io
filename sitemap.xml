@@ -3,37 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/2021_ou/</loc>
-    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+    <loc>/talk/2022_oub/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/3/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <loc>/talk/2022_warwick_b/</loc>
+    <lastmod>2022-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2022_warwick_a/</loc>
+    <lastmod>2022-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2022_picarde/</loc>
+    <lastmod>2022-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/37b10/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/47b65/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/52c23/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/dan-rust/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/james-walton/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/mathematics-dynamical-systems/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/neil-ma%C3%B1ibo/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/preprint/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/2021mrwb/</loc>
-    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+    <loc>/publication/2022mrw/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2022_ou/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/20m18/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/37b52/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/52c22/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/michael-whittaker/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/2021-wwb/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2021_owns/</loc>
     <lastmod>2021-12-07T00:00:00+00:00</lastmod>
@@ -47,22 +92,10 @@
     <loc>/tags/37e25/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/52c23/</loc>
-    <lastmod>2021-10-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/2021ww/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/mathematics-combinatorics-dynamical-systems/</loc>
-    <lastmod>2021-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/michael-whittaker/</loc>
-    <lastmod>2021-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/preprint/</loc>
-    <lastmod>2021-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2021hw/</loc>
@@ -71,13 +104,7 @@
     <loc>/authors/john-hunton/</loc>
     <lastmod>2021-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/37a30/</loc>
-    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/37b10/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/42a16/</loc>
@@ -112,6 +139,9 @@
   </url><url>
     <loc>/talk/2019_newcastle/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2019-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/john-r.-hunton/</loc>
     <lastmod>2019-10-15T00:00:00+00:00</lastmod>

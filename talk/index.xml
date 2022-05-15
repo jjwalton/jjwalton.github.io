@@ -6,17 +6,53 @@
     <description>Recent content in Talks on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TBC</title>
-      <link>/talk/2021_ou/</link>
+      <link>/talk/2022_oub/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2022_oub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aperiodic Order and Linear Repetitivity of Polytopal Cut and Project Sets</title>
+      <link>/talk/2022_warwick_b/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2022_warwick_b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Substitution tilings</title>
+      <link>/talk/2022_warwick_a/</link>
+      <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2022_warwick_a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Substitutions on infinite compact alphabets</title>
+      <link>/talk/2022_picarde/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2022_picarde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compact substitutions</title>
+      <link>/talk/2022_ou/</link>
       <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2021_ou/</guid>
+      <guid>/talk/2022_ou/</guid>
       <description></description>
     </item>
     
