@@ -436,7 +436,7 @@
 <div class="universal-wrapper">
   
   <div class="article-style" itemprop="articleBody"><h1 id="latex-tips">LaTeX Tips</h1>
-<p>Below I&rsquo;ve recorded a few LaTeX tips which don&rsquo;t often appear in a first tutorial but I still wish I&rsquo;d known earlier. There are also some personal preferences which I think can make LaTeX code a little easier to digest.</p>
+<p>Below I&rsquo;ve recorded a few LaTeX tips which don&rsquo;t often appear in a first tutorial but I still wish I&rsquo;d known earlier. There are also some personal preferences which improve readability (for me personally).</p>
 <ul>
 <li><a href="#syntax-imposters">Syntax imposters</a></li>
 <li><a href="#characters-are-cheap">Characters are cheap</a></li>
@@ -446,11 +446,11 @@
 <li><a href="#simple-beamer-slides">Simple Beamer slides</a></li>
 </ul>
 <h2 id="syntax-imposters">Syntax imposters</h2>
-<p>Some tex code produces the symbols you want when there&rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &ldquo;approved&rdquo; option without being the most commonly used!</p>
+<p>Some commands produces the symbols you want when there&rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &ldquo;approved&rdquo; option without being the most commonly used!</p>
 <p>The below produce marginal differences in spacing:</p>
 <ul>
 <li><code>\colon</code> instead of <code>:</code>  e.g., <code>$f \colon X \to Y$</code> gives: $f \colon X \to Y$.</li>
-<li><code>\mid</code> instead of <code>|</code> in set comprehension e.g., <code>$\{2x+3 \mid x&lt;2\}$</code> gives $ \{2x+3 \mid x&lt;2\} $. That looks a lot better than $ \{2x+3 | x&lt;2\} $, doesn&rsquo;t it? And no one wants to be artificially adding white space everywhere by writing something like <code>\{2x+3 \ | \ x&lt;2\}</code>.</li>
+<li><code>\mid</code> instead of <code>|</code> in set comprehension e.g., <code>$\{2x+3 \mid x&lt;2\}$</code> gives $ \{2x+3 \mid x&lt;2\} $. That looks a lot better than $ \{2x+3 | x&lt;2\} $, doesn&rsquo;t it? And no one wants to be adding ad hoc white space everywhere by writing something like <code>\{2x+3 \ | \ x&lt;2\}</code>.</li>
 <li>Apostrophes and quotation marks only give closing ones: <code>'apostrophes'</code> gives $\text{&rsquo;}\text{apostrophes}\text{&rsquo;}$ and <code>&quot;quotations&quot;</code> gives $\text{&quot;}\text{quotations}\text{&quot;}$. Replace an opening apostrophy with a backtick <code>`</code> (probably to the left of the 1 key on your keyboard), and an opening double quotation mark can be replaced with two backticks <code>``</code>, later followed by a closing pair of apostrophes <code>''</code>. There are also packages like <code>csquotes</code> which can adjust this for you whilst still using usual quotation marks in your editor.</li>
 <li>Some standard mathematical functions can be put into equations using a preceding backslash <code>/</code>. Writing <code>cos(x)</code> incorrectly italicises to $cos(x)$, whereas <code>\cos(x)</code> gives the better $\cos(x)$. The same goes for the other trig functions and their hyperbolic versions. Other useful ones include <code>\ln</code>, <code>\log</code>, <code>\det</code>, <code>\gcd</code>, <code>\inf</code>, <code>\sup</code>, <code>\lim</code>, <code>\hom</code>, <code>\ker</code>.</li>
 <li><code>\coloneqq</code> instead of <code>:=</code> when defining an object, e.g., <code>\mathbb{T} \coloneqq \mathbb{R} / \mathbb{Z}</code>. This needs a package, such as <code>mathtools</code>.</li>
@@ -463,7 +463,7 @@
 <ul>
 <li>Adding an opening <code>\left</code> and then closing <code>\right</code> to your brackets lets them resize to what&rsquo;s inside. For example, <code>(2x-3) \left( \frac{y^2+1}{3z^3-2} \right)</code> produces $ \displaystyle (2x-3) \left( \frac{y^2+1}{3z^3-2} \right) $, which looks a lot better than $ \displaystyle (2x-3)(\frac{y^2+1}{3z^3-2}) $, just using <code>( ... )</code>. Newer versions of TeX also have a <code>\middle</code> which can be useful for resizing the middle pipe in set comprehension e.g., <code>\middle|</code> (see also <code>\mid</code> above). One can also use the <code>braket</code> package, which allows you to write something like <code>\Set{ ... | ... }</code>, which automatically resizes the outer braces as well as the middle pipe (it has macros for other, similar scenarios, including of course its namesake bra-ket notation).</li>
 </ul>
-<p>There are various kinds of dashes which should be typeset differently, the hyphen, en-dash and em-dash:</p>
+<p>There are various kinds of dashes that should be typeset differently, the hyphen, en-dash and em-dash:</p>
 <ul>
 <li>
 <p>The shortest, the <strong>hyphen</strong>, uses a single <code>-</code>. These are used for double-barrelled names (e.g., <code>Swinnerton-Dyer</code>) or compound words (e.g., <code>double-barrelled</code>).</p>
@@ -472,7 +472,7 @@
 <p>The medium <strong>en-dash</strong> is typed <code>--</code>. It is used for ranges in both numbers (e.g., <code>See pages 6--19</code>) and when referring to a range of authors. For example, we would write <code>The Gauss--Bonnet Theorem</code> or <code>The Birch--Swinnerton-Dyer Conjecture</code>. In the latter case the length of dashes helpfully informs us that there are two (not one or three) mathematicians involved: Birch and Swinnerton–Dyer.</p>
 </li>
 <li>
-<p>Logically enough, for the longer <strong>em-dash</strong> we adjoin yet one more hyphen: <code>---</code>. They are those standard grammatical dashes used to break up sentences.</p>
+<p>Logically enough, for the longer <strong>em-dash</strong> we add yet one more dash: <code>---</code>. They are those standard grammatical dashes used to break up sentences.</p>
 </li>
 </ul>
 <p>Writing display equations (as opposed to inline equations):</p>
@@ -481,7 +481,7 @@
 <p>For reasons that I never remember, it&rsquo;s preferable to use <code>\[ ... \]</code> rather than <code>$$ ... $$</code>. Certainly with the former, for particularly long equations I find it marginally easier to scope out the start and end of the equation.</p>
 </li>
 <li>
-<p>There is an analogous variant <code>\(...\)</code> instead of <code>$...$</code> for inline equations, although I never use it (maybe I should?).</p>
+<p>There is an analogous variant <code>\(...\)</code> instead of <code>$...$</code> for inline equations which seems to be very rarely used (I&rsquo;ve only just started using it). Again, it&rsquo;s the &ldquo;approved&rdquo; version for a reason I don&rsquo;t remember.</p>
 </li>
 </ul>
 <h2 id="characters-are-cheap">Characters are cheap</h2>
@@ -492,17 +492,17 @@
 \[
 \sum_{n=1}^k P(n+4)^\ell
 \]
-for all $\ell &gt; 0$.
+for all \(\ell &gt; 0\).
 </code></pre></li>
 <li>I also added unnecessary spaces in the above. Although I don&rsquo;t have a fixed convention for this, I do think this can help readability. For example,
 <pre tabindex="0"><code>e^z=\lim_{n\to\infty}\left(1+\frac{z}{n}\right)^n
-</code></pre>feels pretty cramped to me. I can read the below more quickly:
+</code></pre>feels pretty cramped (to me, I appreciate this is very much personal preference!). I can read the below more quickly:
 <pre tabindex="0"><code>e^z = \lim_{n \to \infty} \left(1 + \frac{z}{n} \right)^n
 </code></pre></li>
 <li>Use whitespace when nesting commands and writing lists too. For example, adding tabs before <code>\item</code>s can help with readability:
 <pre tabindex="0"><code>\begin{itemize}
-	\item Option A;
-	\item Option B;
+	\item option A;
+	\item option B;
 	\item or one of these options:
 	\begin{enumerate}
 		\item the option C(i)
@@ -519,7 +519,7 @@ for all $\ell &gt; 0$.
 <p>I should probably use more macros. They can both improve readability and, of course, save time:</p>
 <ul>
 <li>
-<p>Sometimes one decides that notation should be changed. You&rsquo;ll often save time by writing a <code>\newcommand{\name}{definition}</code> from the outset, rather than committing early (one can also use <code>\def...</code>). For example, if I wanted to denote a mathematical gadget by <code>\Gamma</code>, then it&rsquo;s a good idea to put <code>\newcommand{\gadget}{\Gamma}</code> in the preamble, and using <code>\gadget</code> within the body of my document instead of <code>\Gamma</code>. If I later decided I should have called all gadgets something else, say <code>G</code> then I just need to change the <code>\Gamma</code> within the newcommand to <code>G</code>, which will redenote all of my gadgets. This is easier than doing a &lsquo;replace all&rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&rsquo;d been using <code>\Gamma</code> for my gadgets). The other advantage is that <code>\gadget</code> is self-explanatory: this is referring to a gadget, whereas <code>\Gamma</code> is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to keep notation.</p>
+<p>Sometimes one decides that notation should be changed. You&rsquo;ll often save time by writing a <code>\newcommand{\name}{definition}</code> from the outset, rather than committing early (one can also use <code>\def...</code>). For example, if I wanted to denote a mathematical gadget by <code>\Gamma</code>, then it&rsquo;s a good idea to put <code>\newcommand{\gadget}{\Gamma}</code> in the preamble, and using <code>\gadget</code> within the body of my document instead of <code>\Gamma</code>. If I later decided I should have called all gadgets something else, say <code>G</code>, then I just need to change the <code>\Gamma</code> within the newcommand to <code>G</code>, which will redenote all of my gadgets. This is easier than doing a &lsquo;replace all&rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&rsquo;d been using <code>\Gamma</code> for my gadgets). The other advantage is that <code>\gadget</code> is self-explanatory: this is referring to a gadget, whereas <code>\Gamma</code> is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to keep notation.</p>
 </li>
 <li>
 <p>I think basically everyone uses the following: <code>\newcommand{\R}{\mathbb{R}}</code> (or <code>\def\R{\mathbb{R}}</code>) for $ \mathbb{R} $, and similarly <code>\C</code>, <code>\Z</code>, <code>\Q</code>, <code>\N</code> for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$.</p>

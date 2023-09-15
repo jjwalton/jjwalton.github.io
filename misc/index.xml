@@ -17,7 +17,7 @@
       
       <guid>/misc/latex_tips/</guid>
       <description>&lt;h1 id=&#34;latex-tips&#34;&gt;LaTeX Tips&lt;/h1&gt;
-&lt;p&gt;Below I&amp;rsquo;ve recorded a few LaTeX tips which don&amp;rsquo;t often appear in a first tutorial but I still wish I&amp;rsquo;d known earlier. There are also some personal preferences which I think can make LaTeX code a little easier to digest.&lt;/p&gt;
+&lt;p&gt;Below I&amp;rsquo;ve recorded a few LaTeX tips which don&amp;rsquo;t often appear in a first tutorial but I still wish I&amp;rsquo;d known earlier. There are also some personal preferences which improve readability (for me personally).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#syntax-imposters&#34;&gt;Syntax imposters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#characters-are-cheap&#34;&gt;Characters are cheap&lt;/a&gt;&lt;/li&gt;
@@ -27,11 +27,11 @@
 &lt;li&gt;&lt;a href=&#34;#simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;syntax-imposters&#34;&gt;Syntax imposters&lt;/h2&gt;
-&lt;p&gt;Some tex code produces the symbols you want when there&amp;rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &amp;ldquo;approved&amp;rdquo; option without being the most commonly used!&lt;/p&gt;
+&lt;p&gt;Some commands produces the symbols you want when there&amp;rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &amp;ldquo;approved&amp;rdquo; option without being the most commonly used!&lt;/p&gt;
 &lt;p&gt;The below produce marginal differences in spacing:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;\colon&lt;/code&gt; instead of &lt;code&gt;:&lt;/code&gt;  e.g., &lt;code&gt;$f \colon X \to Y$&lt;/code&gt; gives: $f \colon X \to Y$.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;\mid&lt;/code&gt; instead of &lt;code&gt;|&lt;/code&gt; in set comprehension e.g., &lt;code&gt;$\{2x+3 \mid x&amp;lt;2\}$&lt;/code&gt; gives $ \{2x+3 \mid x&amp;lt;2\} $. That looks a lot better than $ \{2x+3 | x&amp;lt;2\} $, doesn&amp;rsquo;t it? And no one wants to be artificially adding white space everywhere by writing something like &lt;code&gt;\{2x+3 \ | \ x&amp;lt;2\}&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\mid&lt;/code&gt; instead of &lt;code&gt;|&lt;/code&gt; in set comprehension e.g., &lt;code&gt;$\{2x+3 \mid x&amp;lt;2\}$&lt;/code&gt; gives $ \{2x+3 \mid x&amp;lt;2\} $. That looks a lot better than $ \{2x+3 | x&amp;lt;2\} $, doesn&amp;rsquo;t it? And no one wants to be adding ad hoc white space everywhere by writing something like &lt;code&gt;\{2x+3 \ | \ x&amp;lt;2\}&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Apostrophes and quotation marks only give closing ones: &lt;code&gt;&#39;apostrophes&#39;&lt;/code&gt; gives $\text{&amp;rsquo;}\text{apostrophes}\text{&amp;rsquo;}$ and &lt;code&gt;&amp;quot;quotations&amp;quot;&lt;/code&gt; gives $\text{&amp;quot;}\text{quotations}\text{&amp;quot;}$. Replace an opening apostrophy with a backtick &lt;code&gt;`&lt;/code&gt; (probably to the left of the 1 key on your keyboard), and an opening double quotation mark can be replaced with two backticks &lt;code&gt;``&lt;/code&gt;, later followed by a closing pair of apostrophes &lt;code&gt;&#39;&#39;&lt;/code&gt;. There are also packages like &lt;code&gt;csquotes&lt;/code&gt; which can adjust this for you whilst still using usual quotation marks in your editor.&lt;/li&gt;
 &lt;li&gt;Some standard mathematical functions can be put into equations using a preceding backslash &lt;code&gt;/&lt;/code&gt;. Writing &lt;code&gt;cos(x)&lt;/code&gt; incorrectly italicises to $cos(x)$, whereas &lt;code&gt;\cos(x)&lt;/code&gt; gives the better $\cos(x)$. The same goes for the other trig functions and their hyperbolic versions. Other useful ones include &lt;code&gt;\ln&lt;/code&gt;, &lt;code&gt;\log&lt;/code&gt;, &lt;code&gt;\det&lt;/code&gt;, &lt;code&gt;\gcd&lt;/code&gt;, &lt;code&gt;\inf&lt;/code&gt;, &lt;code&gt;\sup&lt;/code&gt;, &lt;code&gt;\lim&lt;/code&gt;, &lt;code&gt;\hom&lt;/code&gt;, &lt;code&gt;\ker&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;\coloneqq&lt;/code&gt; instead of &lt;code&gt;:=&lt;/code&gt; when defining an object, e.g., &lt;code&gt;\mathbb{T} \coloneqq \mathbb{R} / \mathbb{Z}&lt;/code&gt;. This needs a package, such as &lt;code&gt;mathtools&lt;/code&gt;.&lt;/li&gt;
@@ -44,7 +44,7 @@
 &lt;ul&gt;
 &lt;li&gt;Adding an opening &lt;code&gt;\left&lt;/code&gt; and then closing &lt;code&gt;\right&lt;/code&gt; to your brackets lets them resize to what&amp;rsquo;s inside. For example, &lt;code&gt;(2x-3) \left( \frac{y^2+1}{3z^3-2} \right)&lt;/code&gt; produces $ \displaystyle (2x-3) \left( \frac{y^2+1}{3z^3-2} \right) $, which looks a lot better than $ \displaystyle (2x-3)(\frac{y^2+1}{3z^3-2}) $, just using &lt;code&gt;( ... )&lt;/code&gt;. Newer versions of TeX also have a &lt;code&gt;\middle&lt;/code&gt; which can be useful for resizing the middle pipe in set comprehension e.g., &lt;code&gt;\middle|&lt;/code&gt; (see also &lt;code&gt;\mid&lt;/code&gt; above). One can also use the &lt;code&gt;braket&lt;/code&gt; package, which allows you to write something like &lt;code&gt;\Set{ ... | ... }&lt;/code&gt;, which automatically resizes the outer braces as well as the middle pipe (it has macros for other, similar scenarios, including of course its namesake bra-ket notation).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;There are various kinds of dashes which should be typeset differently, the hyphen, en-dash and em-dash:&lt;/p&gt;
+&lt;p&gt;There are various kinds of dashes that should be typeset differently, the hyphen, en-dash and em-dash:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The shortest, the &lt;strong&gt;hyphen&lt;/strong&gt;, uses a single &lt;code&gt;-&lt;/code&gt;. These are used for double-barrelled names (e.g., &lt;code&gt;Swinnerton-Dyer&lt;/code&gt;) or compound words (e.g., &lt;code&gt;double-barrelled&lt;/code&gt;).&lt;/p&gt;
@@ -53,7 +53,7 @@
 &lt;p&gt;The medium &lt;strong&gt;en-dash&lt;/strong&gt; is typed &lt;code&gt;--&lt;/code&gt;. It is used for ranges in both numbers (e.g., &lt;code&gt;See pages 6--19&lt;/code&gt;) and when referring to a range of authors. For example, we would write &lt;code&gt;The Gauss--Bonnet Theorem&lt;/code&gt; or &lt;code&gt;The Birch--Swinnerton-Dyer Conjecture&lt;/code&gt;. In the latter case the length of dashes helpfully informs us that there are two (not one or three) mathematicians involved: Birch and Swinnerton–Dyer.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Logically enough, for the longer &lt;strong&gt;em-dash&lt;/strong&gt; we adjoin yet one more hyphen: &lt;code&gt;---&lt;/code&gt;. They are those standard grammatical dashes used to break up sentences.&lt;/p&gt;
+&lt;p&gt;Logically enough, for the longer &lt;strong&gt;em-dash&lt;/strong&gt; we add yet one more dash: &lt;code&gt;---&lt;/code&gt;. They are those standard grammatical dashes used to break up sentences.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Writing display equations (as opposed to inline equations):&lt;/p&gt;
@@ -62,7 +62,7 @@
 &lt;p&gt;For reasons that I never remember, it&amp;rsquo;s preferable to use &lt;code&gt;\[ ... \]&lt;/code&gt; rather than &lt;code&gt;$$ ... $$&lt;/code&gt;. Certainly with the former, for particularly long equations I find it marginally easier to scope out the start and end of the equation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;There is an analogous variant &lt;code&gt;\(...\)&lt;/code&gt; instead of &lt;code&gt;$...$&lt;/code&gt; for inline equations, although I never use it (maybe I should?).&lt;/p&gt;
+&lt;p&gt;There is an analogous variant &lt;code&gt;\(...\)&lt;/code&gt; instead of &lt;code&gt;$...$&lt;/code&gt; for inline equations which seems to be very rarely used (I&amp;rsquo;ve only just started using it). Again, it&amp;rsquo;s the &amp;ldquo;approved&amp;rdquo; version for a reason I don&amp;rsquo;t remember.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;characters-are-cheap&#34;&gt;Characters are cheap&lt;/h2&gt;
@@ -73,17 +73,17 @@
 \[
 \sum_{n=1}^k P(n+4)^\ell
 \]
-for all $\ell &amp;gt; 0$.
+for all \(\ell &amp;gt; 0\).
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;I also added unnecessary spaces in the above. Although I don&amp;rsquo;t have a fixed convention for this, I do think this can help readability. For example,
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;e^z=\lim_{n\to\infty}\left(1+\frac{z}{n}\right)^n
-&lt;/code&gt;&lt;/pre&gt;feels pretty cramped to me. I can read the below more quickly:
+&lt;/code&gt;&lt;/pre&gt;feels pretty cramped (to me, I appreciate this is very much personal preference!). I can read the below more quickly:
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;e^z = \lim_{n \to \infty} \left(1 + \frac{z}{n} \right)^n
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;Use whitespace when nesting commands and writing lists too. For example, adding tabs before &lt;code&gt;\item&lt;/code&gt;s can help with readability:
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\begin{itemize}
-	\item Option A;
-	\item Option B;
+	\item option A;
+	\item option B;
 	\item or one of these options:
 	\begin{enumerate}
 		\item the option C(i)
@@ -100,7 +100,7 @@ for all $\ell &amp;gt; 0$.
 &lt;p&gt;I should probably use more macros. They can both improve readability and, of course, save time:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Sometimes one decides that notation should be changed. You&amp;rsquo;ll often save time by writing a &lt;code&gt;\newcommand{\name}{definition}&lt;/code&gt; from the outset, rather than committing early (one can also use &lt;code&gt;\def...&lt;/code&gt;). For example, if I wanted to denote a mathematical gadget by &lt;code&gt;\Gamma&lt;/code&gt;, then it&amp;rsquo;s a good idea to put &lt;code&gt;\newcommand{\gadget}{\Gamma}&lt;/code&gt; in the preamble, and using &lt;code&gt;\gadget&lt;/code&gt; within the body of my document instead of &lt;code&gt;\Gamma&lt;/code&gt;. If I later decided I should have called all gadgets something else, say &lt;code&gt;G&lt;/code&gt; then I just need to change the &lt;code&gt;\Gamma&lt;/code&gt; within the newcommand to &lt;code&gt;G&lt;/code&gt;, which will redenote all of my gadgets. This is easier than doing a &amp;lsquo;replace all&amp;rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&amp;rsquo;d been using &lt;code&gt;\Gamma&lt;/code&gt; for my gadgets). The other advantage is that &lt;code&gt;\gadget&lt;/code&gt; is self-explanatory: this is referring to a gadget, whereas &lt;code&gt;\Gamma&lt;/code&gt; is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to keep notation.&lt;/p&gt;
+&lt;p&gt;Sometimes one decides that notation should be changed. You&amp;rsquo;ll often save time by writing a &lt;code&gt;\newcommand{\name}{definition}&lt;/code&gt; from the outset, rather than committing early (one can also use &lt;code&gt;\def...&lt;/code&gt;). For example, if I wanted to denote a mathematical gadget by &lt;code&gt;\Gamma&lt;/code&gt;, then it&amp;rsquo;s a good idea to put &lt;code&gt;\newcommand{\gadget}{\Gamma}&lt;/code&gt; in the preamble, and using &lt;code&gt;\gadget&lt;/code&gt; within the body of my document instead of &lt;code&gt;\Gamma&lt;/code&gt;. If I later decided I should have called all gadgets something else, say &lt;code&gt;G&lt;/code&gt;, then I just need to change the &lt;code&gt;\Gamma&lt;/code&gt; within the newcommand to &lt;code&gt;G&lt;/code&gt;, which will redenote all of my gadgets. This is easier than doing a &amp;lsquo;replace all&amp;rsquo; (which could risk changing some Gammas accidently; perhaps I used the Gamma function somewhere, forgetting that I&amp;rsquo;d been using &lt;code&gt;\Gamma&lt;/code&gt; for my gadgets). The other advantage is that &lt;code&gt;\gadget&lt;/code&gt; is self-explanatory: this is referring to a gadget, whereas &lt;code&gt;\Gamma&lt;/code&gt; is referring to a Greek letter. So there are idiomatic reasons to do this even if you fully expect to keep notation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;I think basically everyone uses the following: &lt;code&gt;\newcommand{\R}{\mathbb{R}}&lt;/code&gt; (or &lt;code&gt;\def\R{\mathbb{R}}&lt;/code&gt;) for $ \mathbb{R} $, and similarly &lt;code&gt;\C&lt;/code&gt;, &lt;code&gt;\Z&lt;/code&gt;, &lt;code&gt;\Q&lt;/code&gt;, &lt;code&gt;\N&lt;/code&gt; for $\mathbb{C}$, $\mathbb{Z}$, $\mathbb{Q}$ and $\mathbb{N}$.&lt;/p&gt;
