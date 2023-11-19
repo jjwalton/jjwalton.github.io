@@ -6,10 +6,19 @@
     <description>Recent content in Talks on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aperiodic Order and linear repetitivity of cut and project sets</title>
+      <link>/talk/2023_manchester/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2023_manchester/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The road to a geometric nonperiodic monotile</title>
