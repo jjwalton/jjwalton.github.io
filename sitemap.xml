@@ -2,13 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/talk/2023_manchester/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
+    <loc>/talk/2024_bristol/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/</loc>
+    <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/11j20/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/20m18/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/37b52/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/52c22/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/52c23/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/52c45/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/2024w/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/james-walton/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/mathematics---dynamical-systems/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/michael-whittaker/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/2021-wwb/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2024_derby/</loc>
+    <lastmod>2024-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/2023_manchester/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2023_mfo/</loc>
@@ -17,50 +71,29 @@
     <loc>/talk/2023_oxford/</loc>
     <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/2023_loughborough/</loc>
-    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/37a30/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/37b10/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/42a16/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/52c23/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/dan-rust/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/james-walton/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/mathematics-dynamical-systems-number-theory/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <loc>/tags/mathematics---dynamical-systems-number-theory/</loc>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/neil-ma%C3%B1ibo/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2023mrw/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <loc>/talk/2023_loughborough/</loc>
+    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2022_edmonton/</loc>
     <lastmod>2022-09-08T00:00:00+00:00</lastmod>
@@ -71,29 +104,23 @@
     <loc>/talk/2022_exeter/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/52c45/</loc>
-    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/2022kw/</loc>
-    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/henna-koivusalo/</loc>
-    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/preprint/</loc>
-    <lastmod>2022-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/talk/2022_warwick_b/</loc>
     <lastmod>2022-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2022_warwick_a/</loc>
     <lastmod>2022-05-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/publication/2022kw/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/henna-koivusalo/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/preprint/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/talk/2022_picarde/</loc>
     <lastmod>2022-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/11j20/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/2/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
@@ -101,32 +128,11 @@
     <loc>/tags/47b65/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/2023w/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/mathematics-dynamical-systems/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/2022mrw/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2022_ou/</loc>
     <lastmod>2022-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/20m18/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/37b52/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/52c22/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/michael-whittaker/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/2021-wwb/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/talk/2021_owns/</loc>
     <lastmod>2021-12-07T00:00:00+00:00</lastmod>
@@ -140,7 +146,7 @@
     <loc>/publication/2021ww/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mathematics-combinatorics-dynamical-systems/</loc>
+    <loc>/tags/mathematics---combinatorics-dynamical-systems/</loc>
     <lastmod>2021-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/2021hw/</loc>
@@ -291,6 +297,8 @@
     <lastmod>2013-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/admin/</loc>
+  </url><url>
+    <loc>/authors/authors/</loc>
   </url><url>
     <loc>/misc/latex_tips/</loc>
   </url><url>

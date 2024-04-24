@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>preprint on Jamie Walton</title>
+    <title>Preprint on Jamie Walton</title>
     <link>/tags/preprint/</link>
-    <description>Recent content in preprint on Jamie Walton</description>
+    <description>Recent content in Preprint on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,9 @@
     <item>
       <title>Cut and project sets with polytopal window II: linear repetitivity</title>
       <link>/publication/2022kw/</link>
-      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/publication/2022kw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A complete characterisation of linear repetitivity for cut and project sets with general polytopal windows</title>
-      <link>/publication/2023w/</link>
-      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2023w/</guid>
       <description></description>
     </item>
     
@@ -35,15 +26,6 @@
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/publication/2022mrw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-similarity and limit spaces of substitution tiling semigroups</title>
-      <link>/publication/2021-wwb/</link>
-      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2021-wwb/</guid>
       <description></description>
     </item>
     
