@@ -6,17 +6,35 @@
     <description>Recent content in Authors on Jamie Walton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dan Rust</title>
+      <link>/authors/dan-rust/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/dan-rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>James Walton</title>
       <link>/authors/james-walton/</link>
-      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>/authors/james-walton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neil Mañibo</title>
+      <link>/authors/neil-ma%C3%B1ibo/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/neil-ma%C3%B1ibo/</guid>
       <description></description>
     </item>
     
@@ -26,24 +44,6 @@
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>/authors/michael-whittaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dan Rust</title>
-      <link>/authors/dan-rust/</link>
-      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/dan-rust/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neil Mañibo</title>
-      <link>/authors/neil-ma%C3%B1ibo/</link>
-      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/neil-ma%C3%B1ibo/</guid>
       <description></description>
     </item>
     
