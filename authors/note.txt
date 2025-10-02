@@ -1,1 +1,0 @@
-I got an unexpected error (after update?) so just copied the admin folder to authors.
