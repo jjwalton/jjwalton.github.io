@@ -7,10 +7,19 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jjwalton.github.io/authors/james-walton/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>When is a cut and project set substitutional?</title>
+      <link>https://jjwalton.github.io/publication/2025hkw/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jjwalton.github.io/publication/2025hkw/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Recognisability for generalised hierarchical patterns and pattern spaces of finite local complexity</title>

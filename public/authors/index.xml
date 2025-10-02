@@ -7,15 +7,33 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jjwalton.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Edmund Harriss</title>
+      <link>https://jjwalton.github.io/authors/edmund-harriss/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jjwalton.github.io/authors/edmund-harriss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henna Koivusalo</title>
+      <link>https://jjwalton.github.io/authors/henna-koivusalo/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jjwalton.github.io/authors/henna-koivusalo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>James Walton</title>
       <link>https://jjwalton.github.io/authors/james-walton/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://jjwalton.github.io/authors/james-walton/</guid>
       <description></description>
@@ -45,15 +63,6 @@
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://jjwalton.github.io/authors/michael-whittaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Henna Koivusalo</title>
-      <link>https://jjwalton.github.io/authors/henna-koivusalo/</link>
-      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jjwalton.github.io/authors/henna-koivusalo/</guid>
       <description></description>
     </item>
     
