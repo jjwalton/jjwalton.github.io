@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamie Walton</title>
-    <link>/</link>
+    <link>https://jjwalton.github.io/</link>
     <description>Recent content on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jjwalton.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Papers</title>
-      <link>/publication/</link>
+      <link>https://jjwalton.github.io/publication/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>https://jjwalton.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>/talk/</link>
+      <link>https://jjwalton.github.io/talk/</link>
       <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>/talk/</guid>
+      <guid>https://jjwalton.github.io/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/hat/</link>
+      <link>https://jjwalton.github.io/hat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/hat/</guid>
+      <guid>https://jjwalton.github.io/hat/</guid>
       <description>&lt;h1 id=&#34;story-of-the-hat-tile&#34;&gt;Story of the Hat Tile&lt;/h1&gt;
 &lt;p&gt;If you&amp;rsquo;re here, chances are that you recently tried building patches of so-called &lt;strong&gt;hat tiles&lt;/strong&gt; in a University of Nottingham event. This page will explain more about the amazing discovery of this special tile. At the bottom, you can find some print-outs to try building large patches of tiles at home.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-the-hat-tile-and-who-found-it&#34;&gt;What is the hat tile, and who found it?&lt;/h2&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title></title>
-      <link>/notes/</link>
+      <link>https://jjwalton.github.io/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/notes/</guid>
+      <guid>https://jjwalton.github.io/notes/</guid>
       <description>&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../maths_notes/AT.pdf&#34;&gt;Algebraic topology notes&lt;/a&gt; for masters level course taught at Durham University, Michaelmas term of 2017&amp;ndash;18. They&amp;rsquo;re rather slow paced and overly wordy, so I also made a distilled version &amp;mdash; several students told me that they appreciated the extra detail though.&lt;/li&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title></title>
-      <link>/teaching/</link>
+      <link>https://jjwalton.github.io/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/</guid>
+      <guid>https://jjwalton.github.io/teaching/</guid>
       <description>&lt;h1 id=&#34;next-academic-year&#34;&gt;Next academic year&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;H42PPY (Aerospace Maths 2)&lt;/li&gt;
@@ -151,7 +151,7 @@
 &lt;/li&gt;
 &lt;li&gt;2017 (Durham University)
 &lt;ul&gt;
-&lt;li&gt;Algebraic Topology (4th year course, ~25 students) &lt;a href=&#34;/notes/&#34;&gt;notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Algebraic Topology (4th year course, ~25 students) &lt;a href=&#34;https://jjwalton.github.io/notes/&#34;&gt;notes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Geometric Topology (2nd year course, ~70 students)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -167,10 +167,10 @@
     
     <item>
       <title>Miscs</title>
-      <link>/misc/</link>
+      <link>https://jjwalton.github.io/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/misc/</guid>
+      <guid>https://jjwalton.github.io/misc/</guid>
       <description></description>
     </item>
     

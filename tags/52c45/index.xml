@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>52C45 on Jamie Walton</title>
-    <link>/tags/52c45/</link>
+    <link>https://jjwalton.github.io/tags/52c45/</link>
     <description>Recent content in 52C45 on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/52c45/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jjwalton.github.io/tags/52c45/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A characterisation of linear repetitivity for cut and project sets with general polytopal windows</title>
-      <link>/publication/2024w/</link>
+      <link>https://jjwalton.github.io/publication/2024w/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2024w/</guid>
+      <guid>https://jjwalton.github.io/publication/2024w/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cut and project sets with polytopal window II: linear repetitivity</title>
-      <link>/publication/2022kw/</link>
+      <link>https://jjwalton.github.io/publication/2022kw/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2022kw/</guid>
+      <guid>https://jjwalton.github.io/publication/2022kw/</guid>
       <description></description>
     </item>
     

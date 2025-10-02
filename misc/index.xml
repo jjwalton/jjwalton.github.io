@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miscs on Jamie Walton</title>
-    <link>/misc/</link>
+    <link>https://jjwalton.github.io/misc/</link>
     <description>Recent content in Miscs on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     
-	    <atom:link href="/misc/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jjwalton.github.io/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/misc/latex_tips/</link>
+      <link>https://jjwalton.github.io/misc/latex_tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/misc/latex_tips/</guid>
+      <guid>https://jjwalton.github.io/misc/latex_tips/</guid>
       <description>&lt;h1 id=&#34;latex-tips&#34;&gt;LaTeX Tips&lt;/h1&gt;
 &lt;p&gt;Below I&amp;rsquo;ve recorded a few LaTeX tips which don&amp;rsquo;t often appear in a first tutorial but I still wish I&amp;rsquo;d known earlier. There are also some personal preferences which improve readability (for me personally).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#syntax-imposters&#34;&gt;Syntax imposters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#characters-are-cheap&#34;&gt;Characters are cheap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#macros&#34;&gt;Macros&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#folder-structure&#34;&gt;Folder structure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#course-material-maintenance&#34;&gt;Course material maintenance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/misc/latex_tips/#simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#syntax-imposters&#34;&gt;Syntax imposters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#characters-are-cheap&#34;&gt;Characters are cheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#macros&#34;&gt;Macros&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#folder-structure&#34;&gt;Folder structure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#course-material-maintenance&#34;&gt;Course material maintenance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;syntax-imposters&#34;&gt;Syntax imposters&lt;/h2&gt;
 &lt;p&gt;Some commands produces the symbols you want when there&amp;rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &amp;ldquo;approved&amp;rdquo; option without being the most commonly used!&lt;/p&gt;
@@ -111,7 +111,7 @@ for all \(\ell &amp;gt; 0\).
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;folder-structure&#34;&gt;Folder structure&lt;/h2&gt;
-&lt;p&gt;Especially for bigger projects (see also &lt;a href=&#34;/misc/latex_tips/#course-material-maintenance&#34;&gt;below&lt;/a&gt; on course note recommendations), having a sensible folder/file structure can keep things more organised.&lt;/p&gt;
+&lt;p&gt;Especially for bigger projects (see also &lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#course-material-maintenance&#34;&gt;below&lt;/a&gt; on course note recommendations), having a sensible folder/file structure can keep things more organised.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;When there are lots (or, in my opinion, even just &lt;em&gt;any&lt;/em&gt;) figures, it makes sense to keep them in a separate folder. I usually have an &lt;code&gt;images&lt;/code&gt; folder, which contains the images in pdf form, as well as an &lt;code&gt;svgs&lt;/code&gt; sub-folder which contains the editable vector images, for me typically drawn in &lt;a href=&#34;https://inkscape.org/&#34;&gt;Inkscape&lt;/a&gt;. When you include the figures into your paper (say, using &lt;code&gt;\includegraphics&lt;/code&gt; or &lt;code&gt;\import&lt;/code&gt;), you just need to point to the right file path by including the folder name, or by adding a &lt;code&gt;\graphicspath&lt;/code&gt; in your preamble.&lt;/p&gt;
@@ -189,22 +189,22 @@ for all \(\ell &amp;gt; 0\).
 │      └──...
 ├──...
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In the above, &lt;code&gt;sty_static&lt;/code&gt; holds the &lt;code&gt;sty&lt;/code&gt; files for preambles and macros (such as for maths notation). The folder &lt;code&gt;year_dependent&lt;/code&gt; contains everything we need to edit for a new year: the &lt;code&gt;variables.sty&lt;/code&gt; file and maybe some individual files that might need updating (like image files for QR codes to student participation activities).&lt;/p&gt;
-&lt;p&gt;In case it helps a single soul, I&amp;rsquo;ve started a very basic &lt;a href=&#34;/templates/2020_course.zip&#34;&gt;template&lt;/a&gt; implementing the above.&lt;/p&gt;
+&lt;p&gt;In case it helps a single soul, I&amp;rsquo;ve started a very basic &lt;a href=&#34;https://jjwalton.github.io/templates/2020_course.zip&#34;&gt;template&lt;/a&gt; implementing the above.&lt;/p&gt;
 &lt;h2 id=&#34;simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/h2&gt;
 &lt;p&gt;Maths talk/lecture slides are often made on Beamer. I regularly see the bottom navigation symbols displayed but have &lt;em&gt;never&lt;/em&gt; seen them used:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The (in my opinion, redundant) slide navigation symbols can be disabled with &lt;code&gt;\setbeamertemplate{navigation symbols}{}&lt;/code&gt; in the preamble.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Purely personal preference: I prefer slides to be clean and minimal. I&amp;rsquo;d rather the important content be drawing the attention than a busy frame. Here&amp;rsquo;s a &lt;a href=&#34;/templates/simple_slides.tex&#34;&gt;template&lt;/a&gt; for some simple, adaptable slides.&lt;/p&gt;
+&lt;p&gt;Purely personal preference: I prefer slides to be clean and minimal. I&amp;rsquo;d rather the important content be drawing the attention than a busy frame. Here&amp;rsquo;s a &lt;a href=&#34;https://jjwalton.github.io/templates/simple_slides.tex&#34;&gt;template&lt;/a&gt; for some simple, adaptable slides.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/misc/links/</link>
+      <link>https://jjwalton.github.io/misc/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/misc/links/</guid>
+      <guid>https://jjwalton.github.io/misc/links/</guid>
       <description>&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Nottingham&amp;rsquo;s &lt;a href=&#34;https://www.nottingham.ac.uk/mathematics/&#34;&gt;School of Mathematical Sciences&lt;/a&gt;.&lt;/li&gt;
@@ -221,10 +221,10 @@ for all \(\ell &amp;gt; 0\).
     
     <item>
       <title></title>
-      <link>/misc/photos/</link>
+      <link>https://jjwalton.github.io/misc/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/misc/photos/</guid>
+      <guid>https://jjwalton.github.io/misc/photos/</guid>
       <description>&lt;h1 id=&#34;some-photos&#34;&gt;Some Photos&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;../../photos/out_of_signal.jpg&#34;&gt;&lt;img src=&#34;../../photos/s_out_of_signal.jpg&#34; alt=&#34;Out of signal&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Out of signal&lt;/strong&gt;&lt;/em&gt; &amp;mdash; (Near Ardtoe; Nikon D3500, kit lens: AP&amp;ndash;P Nikkor, 18&amp;ndash;55mm F3.5&amp;ndash;5.6)&lt;/p&gt;
