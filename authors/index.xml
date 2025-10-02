@@ -2,112 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Jamie Walton</title>
-    <link>//localhost:1313/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>James Walton</title>
-      <link>//localhost:1313/authors/james-walton/</link>
+      <link>/authors/james-walton/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/james-walton/</guid>
+      <guid>/authors/james-walton/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dan Rust</title>
-      <link>//localhost:1313/authors/dan-rust/</link>
+      <link>/authors/dan-rust/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/dan-rust/</guid>
+      <guid>/authors/dan-rust/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neil Mañibo</title>
-      <link>//localhost:1313/authors/neil-manibo/</link>
+      <link>/authors/neil-manibo/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/neil-manibo/</guid>
+      <guid>/authors/neil-manibo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Whittaker</title>
-      <link>//localhost:1313/authors/michael-whittaker/</link>
+      <link>/authors/michael-whittaker/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/michael-whittaker/</guid>
+      <guid>/authors/michael-whittaker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Henna Koivusalo</title>
-      <link>//localhost:1313/authors/henna-koivusalo/</link>
+      <link>/authors/henna-koivusalo/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/henna-koivusalo/</guid>
+      <guid>/authors/henna-koivusalo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>John Hunton</title>
-      <link>//localhost:1313/authors/john-hunton/</link>
+      <link>/authors/john-hunton/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/john-hunton/</guid>
+      <guid>/authors/john-hunton/</guid>
       <description></description>
     </item>
     
     <item>
       <title>John R. Hunton</title>
-      <link>//localhost:1313/authors/john-r.-hunton/</link>
+      <link>/authors/john-r.-hunton/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/john-r.-hunton/</guid>
+      <guid>/authors/john-r.-hunton/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alan Haynes</title>
-      <link>//localhost:1313/authors/alan-haynes/</link>
+      <link>/authors/alan-haynes/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/alan-haynes/</guid>
+      <guid>/authors/alan-haynes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Antoine Julien</title>
-      <link>//localhost:1313/authors/antoine-julien/</link>
+      <link>/authors/antoine-julien/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/antoine-julien/</guid>
+      <guid>/authors/antoine-julien/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lorenzo Sadun</title>
-      <link>//localhost:1313/authors/lorenzo-sadun/</link>
+      <link>/authors/lorenzo-sadun/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/lorenzo-sadun/</guid>
+      <guid>/authors/lorenzo-sadun/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>//localhost:1313/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am an Assistant Professor in the School of Mathematical Sciences at the &lt;a href=&#34;www.nottingham.ac.uk/&#34;&gt;University of Nottingham&lt;/a&gt;. I previously held positions at the &lt;a href=&#34;https://www.york.ac.uk/maths/&#34;&gt;University of York&lt;/a&gt;, &lt;a href=&#34;https://www.dur.ac.uk/mathematical.sciences/&#34;&gt;Durham University&lt;/a&gt; and the &lt;a href=&#34;https://www.gla.ac.uk/schools/mathematicsstatistics/&#34;&gt;University of Glasgow&lt;/a&gt;. I obtained my Ph.D. from the &lt;a href=&#34;https://le.ac.uk/mathematics&#34;&gt;University of Leicester&lt;/a&gt; under the supervision of &lt;a href=&#34;https://www.dur.ac.uk/research/directory/staff/?mode=staff&amp;amp;id=11887&#34;&gt;Prof. John Hunton&lt;/a&gt; and &lt;a href=&#34;https://www.qmul.ac.uk/maths/profiles/clarkalex.html&#34;&gt;Prof. Alex Clark&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I love teaching Mathematics, which is the focus of my work in Nottingham. My mathematical interests are in the field of &lt;a href=&#34;https://www.ams.org/publications/journals/notices/201606/rnoti-p647.pdf&#34;&gt;Aperiodic Order&lt;/a&gt;, particularly of invariants of aperiodic patterns defined via tools from Algebraic Topology and Dynamical Systems. I am also interested in properties of cut and project sets, especially as a bridge between their geometric recurrence properties and the field of Diophantine Approximation, a branch of Number Theory which concerns how well rational numbers can approximate real numbers.&lt;/p&gt;
 &lt;p&gt;I was previously an organiser of the &lt;a href=&#34;https://www.gla.ac.uk/schools/mathematicsstatistics/events/archive/?seriesID=5&#34;&gt;Glasgow Anaylsis Seminar&lt;/a&gt;. With &lt;a href=&#34;http://www.open.ac.uk/people/dr8563&#34;&gt;Dan Rust&lt;/a&gt;, I organised the 2018 &lt;a href=&#34;https://sites.google.com/view/modelsets&#34;&gt;Model Sets and Aperiodic Order Conference&lt;/a&gt;. With &lt;a href=&#34;https://research-information.bris.ac.uk/en/persons/henna-l-l-koivusalo&#34;&gt;Henna Koivusalo&lt;/a&gt; I organised a special session on Tiling Spaces at the &lt;a href=&#34;https://www.univie.ac.at/projektservice-mathematik/e/index.php?event=stc21&#34;&gt;36th Summer Topology Conference&lt;/a&gt; at the University of Vienna, 18-22 July 2022. I am a member of the &lt;a href=&#34;https://www.lms.ac.uk/&#34;&gt;London Mathematical Society&lt;/a&gt;.&lt;/p&gt;

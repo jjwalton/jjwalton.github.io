@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lorenzo Sadun on Jamie Walton</title>
-    <link>//localhost:1313/authors/lorenzo-sadun/</link>
+    <link>/authors/lorenzo-sadun/</link>
     <description>Recent content in Lorenzo Sadun on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/authors/lorenzo-sadun/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/lorenzo-sadun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gaps problems and frequencies of patches in cut and project sets</title>
-      <link>//localhost:1313/publication/2016hksw/</link>
+      <link>/publication/2016hksw/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/publication/2016hksw/</guid>
+      <guid>/publication/2016hksw/</guid>
       <description></description>
     </item>
     

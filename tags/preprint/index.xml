@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preprint on Jamie Walton</title>
-    <link>//localhost:1313/tags/preprint/</link>
+    <link>/tags/preprint/</link>
     <description>Recent content in Preprint on Jamie Walton</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recognisability for generalised hierarchical patterns and pattern spaces of finite local complexity</title>
-      <link>//localhost:1313/publication/2025w/</link>
+      <link>/publication/2025w/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/publication/2025w/</guid>
+      <guid>/publication/2025w/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substitutions on compact alphabets</title>
-      <link>//localhost:1313/publication/2025mrw/</link>
+      <link>/publication/2025mrw/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/publication/2025mrw/</guid>
+      <guid>/publication/2025mrw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cut and project sets with polytopal window II: linear repetitivity</title>
-      <link>//localhost:1313/publication/2022kw/</link>
+      <link>/publication/2022kw/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/publication/2022kw/</guid>
+      <guid>/publication/2022kw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An aperiodic tile with edge-to-edge orientational matching rules</title>
-      <link>//localhost:1313/publication/2021ww/</link>
+      <link>/publication/2021ww/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/publication/2021ww/</guid>
+      <guid>/publication/2021ww/</guid>
       <description></description>
     </item>
     
