@@ -7,10 +7,19 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-uk</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jjwalton.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self-similarity, and classifying it for cut and project sets</title>
+      <link>https://jjwalton.github.io/talk/2025_durham/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jjwalton.github.io/talk/2025_durham/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Substitutions, cut and projects and both</title>
