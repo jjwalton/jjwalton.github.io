@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neil Mañibo on Jamie Walton</title>
+    <link>//localhost:1313/authors/neil-manibo/</link>
+    <description>Recent content in Neil Mañibo on Jamie Walton</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-uk</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/authors/neil-manibo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Substitutions on compact alphabets</title>
+      <link>//localhost:1313/publication/2025mrw/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publication/2025mrw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral properties of substitutions on compact alphabets</title>
+      <link>//localhost:1313/publication/2023mrw/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publication/2023mrw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

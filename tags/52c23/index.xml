@@ -2,66 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>52C23 on Jamie Walton</title>
-    <link>/tags/52c23/</link>
+    <link>//localhost:1313/tags/52c23/</link>
     <description>Recent content in 52C23 on Jamie Walton</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-uk</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/52c23/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/tags/52c23/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Recognisability for generalised hierarchical patterns and pattern spaces of finite local complexity</title>
+      <link>//localhost:1313/publication/2025w/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publication/2025w/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Substitutions on compact alphabets</title>
-      <link>/publication/2025mrw/</link>
+      <link>//localhost:1313/publication/2025mrw/</link>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2025mrw/</guid>
+      <guid>//localhost:1313/publication/2025mrw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A characterisation of linear repetitivity for cut and project sets with general polytopal windows</title>
-      <link>/publication/2024w/</link>
+      <link>//localhost:1313/publication/2024w/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2024w/</guid>
+      <guid>//localhost:1313/publication/2024w/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spectral properties of substitutions on compact alphabets</title>
-      <link>/publication/2023mrw/</link>
+      <link>//localhost:1313/publication/2023mrw/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2023mrw/</guid>
+      <guid>//localhost:1313/publication/2023mrw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cut and project sets with polytopal window II: linear repetitivity</title>
-      <link>/publication/2022kw/</link>
+      <link>//localhost:1313/publication/2022kw/</link>
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2022kw/</guid>
+      <guid>//localhost:1313/publication/2022kw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An aperiodic tile with edge-to-edge orientational matching rules</title>
-      <link>/publication/2021ww/</link>
+      <link>//localhost:1313/publication/2021ww/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2021ww/</guid>
+      <guid>//localhost:1313/publication/2021ww/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cohomology of rotational tiling spaces</title>
-      <link>/publication/2017wal_b/</link>
+      <link>//localhost:1313/publication/2017wal_b/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017wal_b/</guid>
+      <guid>//localhost:1313/publication/2017wal_b/</guid>
       <description></description>
     </item>
     

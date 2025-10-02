@@ -2,110 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamie Walton</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Jamie Walton</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-uk</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Talks</title>
-      <link>/talk/</link>
-      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Papers</title>
+      <link>//localhost:1313/publication/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>/talk/</guid>
+      <guid>//localhost:1313/publication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Papers</title>
-      <link>/publication/</link>
-      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Talks</title>
+      <link>//localhost:1313/talk/</link>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>//localhost:1313/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/hat/</link>
+      <link>//localhost:1313/hat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/hat/</guid>
+      <guid>//localhost:1313/hat/</guid>
       <description>&lt;h1 id=&#34;story-of-the-hat-tile&#34;&gt;Story of the Hat Tile&lt;/h1&gt;
-&lt;p&gt;If you&amp;rsquo;re here, chances are that you recently tried building patches of so-called &lt;strong&gt;hat tiles&lt;/strong&gt; in a University of Nottingham event. This page will explain more about the amazing discovery of this tile, and what makes it special. At the bottom (skip to it by pressing &lt;a href=&#34;/hat/#tiling-activity&#34;&gt;here&lt;/a&gt;), you can find some print-outs to try building large patches of tiles at home.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re here, chances are that you recently tried building patches of so-called &lt;strong&gt;hat tiles&lt;/strong&gt; in a University of Nottingham event. This page will explain more about the amazing discovery of this special tile. At the bottom, you can find some print-outs to try building large patches of tiles at home.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-the-hat-tile-and-who-found-it&#34;&gt;What is the hat tile, and who found it?&lt;/h2&gt;
 &lt;p&gt;Here is the hat tile:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Hat tile&#34; src=&#34;../../hat/hat.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;It looks simple enough, it is a polygon (a shape made of straight sides), with 13 edges. Simple shapes with interesting properties aren&amp;rsquo;t discovered that often. Forced to guess, one might think that it was found hundreds, maybe thousands of years ago! But, in fact, it was discovered very recently, around 2022 by David Smith:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;David Smith&#34; src=&#34;../../hat/David_Smith.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The above photo of David is from this excellent &lt;a href=&#34;https://www.quantamagazine.org/hobbyist-finds-maths-elusive-einstein-tile-20230404/&#34;&gt;Quanta article&lt;/a&gt; on the discovery. David Smith has been variously described as an &amp;lsquo;amateur mathematician&amp;rsquo; or &amp;lsquo;hobbyist&amp;rsquo; because, although not &lt;em&gt;employed&lt;/em&gt; as a mathematician, he is clearly a gifted geometer with a passion for studying shapes. It is this passion that led him to his discovery. It just goes to show, there are some mathematical problems which you do not need to be a &amp;ldquo;professional&amp;rdquo; mathematician to help solve!&lt;/p&gt;
-&lt;p&gt;It is called the &amp;lsquo;hat&amp;rsquo;, of course, because it looks a bit like a top hat. Many I&amp;rsquo;ve spoken to say it looks more like a t-shirt to them!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/hat.png&#34; alt=&#34;Hat tile&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It looks simple enough, it is a polygon (a shape made of straight sides), with 13 edges. Simple shapes with interesting properties aren&amp;rsquo;t discovered that often, so you might think that it was likely found hundreds, maybe thousands of years ago! But, in fact, it was discovered very recently, around 2022 by David Smith:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/David_Smith.png&#34; alt=&#34;David Smith&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The above photo of David is from this excellent &lt;a href=&#34;https://www.quantamagazine.org/hobbyist-finds-maths-elusive-einstein-tile-20230404/&#34;&gt;Quanta article&lt;/a&gt; on the discovery. David Smith has been variously described as an &amp;lsquo;amateur mathematician&amp;rsquo; or &amp;lsquo;hobbyist&amp;rsquo;. This is no bad thing! Although not &lt;em&gt;employed&lt;/em&gt; as a mathematician, he is clearly a gifted geometer, and his love of it led him to his discovery. It just goes to show, you don&amp;rsquo;t need to be a professional mathematician to discover an important new shape!&lt;/p&gt;
+&lt;p&gt;It is called the &amp;lsquo;hat&amp;rsquo; because it looks a bit like a top-hat. I personally think it looks a bit more like a t-shirt, if you turn it around (several others have told me the same)!&lt;/p&gt;
 &lt;h2 id=&#34;whats-special-about-the-hat&#34;&gt;What&amp;rsquo;s special about the hat?&lt;/h2&gt;
-&lt;p&gt;It is true (but hard to show) that, if you have an unlimited supply of hat tiles, you can use them tile infinite plane, that is, cover the whole plane without them overlapping. Think of it as covering the floor, but with the floor going on forever in all directions!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;A tiling of hats&#34; src=&#34;../../hat/hat_tiling.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s on its own is not too special: we already know of plenty of shapes of tiles that tile the plane. For example, the standard tessellation of squares, which you might find in your bathroom, can also tile the whole plane:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Periodic Square tiling&#34; src=&#34;../../hat/square_tiling.svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is true (but hard to show!) that, if you have an unlimited supply of hat tiles, you can use them to cover the whole infinite plane. Think of it as covering the floor, but with the floor going on forever in all directions!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/hat_tiling.png&#34; alt=&#34;A tiling of hats&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s not too special, we already know of plenty of shapes of tiles that tile the plane. For example, the standard tessellation of squares, which you might find in your bathroom, can also tile the whole plane:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/square_tiling.svg&#34; alt=&#34;Periodic Square tiling&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The above tiling is &lt;strong&gt;periodic&lt;/strong&gt;. This means that you can slide the whole thing over and line it up exactly with the original (and you can do this in two different directions). Another way of thinking about it, is that there&amp;rsquo;s a block which repeats over and over, in the same way, across the whole plane. Once you know the basic building block, and how it repeats, you know how it looks everywhere.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Can you think of any other tilings like this, based on other shapes?&lt;/strong&gt; Hint: ask the bees!&lt;/p&gt;
 &lt;p&gt;It is also not too hard to find shapes, like a 2-by-1 rectangle, which allow for tilings which are &lt;strong&gt;not&lt;/strong&gt; periodic (and are perhaps quite random):&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Periodic Square tiling&#34; src=&#34;../../hat/random_rectangle.svg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;but also allow for periodically repeating tilings:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Periodic Square tiling&#34; src=&#34;../../hat/periodic_rectangle.svg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Periodic patterns, since they repeat, are relatively simple for us to understand. Indeed, mathematicians have found all of the possible ones in some sense. There are 17 possibilities, given by the &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Wallpaper_group&#34;&gt;wallpaper groups&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;The hat tile is different. Even though &lt;strong&gt;you can tile the whole plane with hats&lt;/strong&gt;, the only tilings you can make &lt;strong&gt;never periodically repeat&lt;/strong&gt;! This makes them more complicated&amp;hellip; and more interesting!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/random_rectangle.svg&#34; alt=&#34;Periodic Square tiling&#34;&gt;&lt;/p&gt;
+&lt;p&gt;but also permit periodically repeating tilings:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/periodic_rectangle.svg&#34; alt=&#34;Periodic Square tiling&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Periodic patterns, since they repeat, are relatively simple for us to understand. Indeed, mathematicians have found all of the possible ones, in some sense (there are 17 possibilities, given by the	 &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/Wallpaper_group&#34;&gt;wallpaper groups&lt;/a&gt;&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;The hat tile is different. Even though &lt;strong&gt;you can tile the whole plane with hats&lt;/strong&gt;, going on forever, the only tilings you can make &lt;strong&gt;never periodically repeat&lt;/strong&gt;! This makes them more complicated&amp;hellip; and more interesting!&lt;/p&gt;
 &lt;h2 id=&#34;discovery-of-the-hat&#34;&gt;Discovery of the hat&lt;/h2&gt;
-&lt;p&gt;Before the hat, we already knew that there can be collections of tiles which can tile the plane only non-periodically. The first set was found by Robert Berger. But, instead of being just one tile, it consisted of &lt;strong&gt;20,426&lt;/strong&gt; different &amp;ldquo;domino-like&amp;rdquo; tiles! How on Earth could he have done this? Well, his discovery was based on some interesting mathematics, linking tiling problems to questions in logic, related to how computers work.&lt;/p&gt;
+&lt;p&gt;Before the hat, we already knew that there can be collections of tiles which can tile the plane only non-periodically. The first set was found by Robert Berger. But, instead of being just one tile, it consisted of &lt;strong&gt;20,426&lt;/strong&gt; &amp;ldquo;domino-like&amp;rdquo; tiles! How on Earth could he have done this? Well, his discovery was based on some interesting mathematics, linking tiling problems to questions in logic, related to how computers work.&lt;/p&gt;
 &lt;p&gt;The race was on to find much smaller sets of non-periodic tiles!&lt;/p&gt;
 &lt;p&gt;After some progress on this, around the 1970s, the physicist Roger Penrose brought the number down to just 2. He found a pair (actually, two pairs, but they make similar tilings) of tiles, called the kite and dart tiles, pictured below (image from &lt;a href=&#34;https://en.wikipedia.org/wiki/Penrose_tiling&#34;&gt;Wikipedia&lt;/a&gt;):&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Penrose kite and dart tiles&#34; src=&#34;../../hat/kite_dart.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;There is a rule that the different coloured markings need to continue over edges (or one can alternatively turn these into bumps and dents to force the same edge matching rule). Here is part of an infinite tiling they make (with different colours of tiles):&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Periodic Square tiling&#34; src=&#34;../../hat/penrose_tiling.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The above image is from the University of Bielefeld&amp;rsquo;s &lt;a href=&#34;https://tilings.math.uni-bielefeld.de/substitution/penrose-kite-dart/&#34;&gt;Tilings Encyclopedia&lt;/a&gt;. I recommend looking through this website for other images of beautiful non-periodic tilings!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/kite_dart.png&#34; alt=&#34;Penrose kite and dart tiles&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There is a rule that the different coloured markings need to continue over edges (or one can alternatively turn these into bumps and dents to force the same rule). Here is part of an infinite tiling they make (with different colours of tiles):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../hat_pics/penrose_tiling.png&#34; alt=&#34;Periodic Square tiling&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The above image is from the University of Bielefeld&amp;rsquo;s &lt;a href=&#34;https://tilings.math.uni-bielefeld.de/substitution/penrose-kite-dart/&#34;&gt;Tilings Encyclopedia&lt;/a&gt;. I recommend looking through this website for other images of beautiful aperiodic tilings!&lt;/p&gt;
 &lt;p&gt;Thus, following Penrose&amp;rsquo;s discovery of a pair of non-periodic tiles, there was a natural question: is there &lt;strong&gt;a single shape&lt;/strong&gt; of tile, which can tile the whole plane but only non-periodically? We knew we could do it with two. What about just one?&lt;/p&gt;
-&lt;p&gt;Fifty or so years on, David Smith resolved this long-standing question. He was experimenting with shapes called &amp;lsquo;polykites&amp;rsquo;. These are formed by putting together particular shapes, called kites, which you get by cutting a regular hexagon by lines through the centres of its edges, as in the image below:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../hat/polykite.png&#34;&gt;&lt;img alt=&#34;Periodic Square tiling&#34; src=&#34;../../hat/polykite.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fifty or so years on, David Smith was experimenting with shapes called &amp;lsquo;polykites&amp;rsquo;. These are formed by putting together particular shapes, called kites, which you get by cutting a regular hexagon by lines through the centres of its edges, as in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../hat_pics/polykite.png&#34;&gt;&lt;img src=&#34;../../hat_pics/polykite.png&#34; alt=&#34;Periodic Square tiling&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;One (of six) of these kites has been shaded.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Challenge:&lt;/strong&gt; Try printing the above twice and cutting out the kites. See if you can arrange eight of them together to build the hat tile at the top of this page!&lt;/p&gt;
 &lt;p&gt;At some point, David found a shape (the hat!) that he seemed to be able to keep tiling further and further with. This sometimes happened for other shapes: you might find a &amp;lsquo;block&amp;rsquo; which can then be repeated forever, making periodic tilings. But this one was different. It seemed to keep tiling, but never in a periodic way.&lt;/p&gt;
 &lt;p&gt;How do we actually &lt;strong&gt;prove&lt;/strong&gt; the shape tiles forever, and only non-periodically? That needs some Maths! You can look at the mathematical research paper proving that &lt;a href=&#34;https://arxiv.org/pdf/2303.10798&#34;&gt;here&lt;/a&gt;, although even for professional mathematicians this is not easy to follow! (but there are some nice pictures in it you might be interested to see). David needed some help with this, and first recruited Craig Kaplan, a Canadian mathematician and computer scientist, who had experience in coding these kinds of tessellation problems.&lt;/p&gt;
-&lt;p&gt;Craig set a deadline of Christmas that year to try to find the proofs, but was unable to. So they brought on another world-renowed expert to help, Chaim Goodman&amp;ndash;Strauss, an American mathematician specialising in geometry. The group quickly also recruited Joseph Samuel Myers, from the UK, to help. Although not a working mathematician, Joseph got a degree in Mathematics from Cambridge, helps with Maths Olympiad activities and also had a lot of experience in these geometry problems. He is also an excellent computer programmer, which was a big help for the hat project.&lt;/p&gt;
-&lt;p&gt;Several months later, they cracked it. In March 2023, they announced their result and put their research paper online for everyone to read. The paper introduced the hat, and explained a proof of why it can tile forever, but only non-periodically, neither being easy to show!&lt;/p&gt;
+&lt;p&gt;Craig set a deadline of Christmas that year to try to find the proofs, but was unable to. So they brought on another world-renowed expert to help, Chaim Goodman-Strauss, an American mathematician specialising in geometry. The group quickly also recruited Joseph Samuel Myers, from the UK, to help. Although not a working mathematician, Joseph got a degree in Mathematics from Cambridge, helps with Maths Olympiad activities and also had a lot of experience in these geometry problems.&lt;/p&gt;
+&lt;p&gt;Several months later, in March 2023, they announced their result and put their research paper online for everyone to read. The paper introduced the hat, and explained a proof of why it can tile forever, but only non-periodically, neither being easy to show!&lt;/p&gt;
 &lt;p&gt;As you&amp;rsquo;ll find out when trying to make tilings with the hat &lt;strong&gt;you sometimes need to flip the tile over&lt;/strong&gt;. Perhaps you think this is cheating. If so, fear not! The same team who found the hat later found another tile, called the &lt;strong&gt;spectre tile&lt;/strong&gt;, which can also tile the whole plane, only non-periodically, and you only need to use the tile one way up! Here is a picture of a tiling of the spectre (ignore the different shades and light lines near the edges, all tiles are the same and can still be made as polygons we can cut out!), this image from &lt;a href=&#34;https://momath.org/the-hat/&#34;&gt;MoMath&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Spectre tiling&#34; src=&#34;spectre_tiling.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;spectre_tiling.jpg&#34; alt=&#34;Spectre tiling&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a-new-area-of-mathematics&#34;&gt;A new area of Mathematics&lt;/h2&gt;
-&lt;p&gt;Mathematicians and physicists are interested in these &amp;ldquo;aperiodically ordered&amp;rdquo; structures as a new area of research! In Maths, some structures of interest elsewhere turn out to be linked to these patterns. In Physics and Chemistry, tilings can be interesting models of how structures repeat in real materials.&lt;/p&gt;
-&lt;p&gt;Take diamond, for instance. As you probably know, this is an extremly stong material. This is down to how its atoms are arranged and linked, in a periodically repeating way, using the following &amp;lsquo;building block&amp;rsquo;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Diamond model&#34; src=&#34;Diamond_cubic_animation.gif&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Animation from &lt;a href=&#34;https://en.wikipedia.org/wiki/Diamond_cubic&#34;&gt;Wikipedia&lt;/a&gt;. Much like how two-dimensional shapes can be used to cover the plane, tiny versions of the above can be put together in three-dimensional space, and this is the structure of diamond. Generally, beautiful crystals have this kind of structure (but with other symmetries), but all the ones we knew about were based on periodically repeating patterns.&lt;/p&gt;
-&lt;p&gt;Scientists can try to work out the structures and symmetries of these objects by shining X-rays at them and looking at the patterns this makes on a screen. In the 1980s, crystallographer Dan Shechtman found the following image (see this Wikipedia page on &lt;a href=&#34;https://en.wikipedia.org/wiki/Quasicrystal&#34;&gt;quasicrystals&lt;/a&gt;) from this kind of experiment:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Diffraction of quasicrystal&#34; src=&#34;diffraction.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Notice that there is a beautiful pattern of spots. Therefore, the material he was testing &lt;strong&gt;must be highly organised&lt;/strong&gt;! A randomly arranged material would just result in a blur. On the other hand, it turns out to have &amp;lsquo;forbidden symmetries&amp;rsquo; which &lt;strong&gt;cannot happen for a periodically repeating pattern&lt;/strong&gt;! Therefore, he had shown that ordered but non-periodic patterns, like 3d versions of the hat tiles (or, then, Penrose tiles), can be manufactured. The scientific community was initially very sceptical (and in some cases, rudely critical) of his work. However, we now know a lot more, and these really are a new kind of aperiodically ordered material. Shechtman was vindicated by winning the Nobel Prize (one of the most important in science), in Chemistry, in 2011.&lt;/p&gt;
+&lt;p&gt;Mathematicians and physicists are interested in these &amp;ldquo;aperiodically ordered&amp;rdquo; structures as a new area of research! In Maths, lots of structures we&amp;rsquo;ve seen before turn out to be linked to these patterns. In Physics, tilings can be interesting models of how structures repeat in real materials.&lt;/p&gt;
+&lt;p&gt;Take diamond, for instance. As you probably know, this is an extremly stong material. Part of the reason is its atoms are arranged and linked in a periodically repeating way, using the following fundamental &amp;lsquo;building block&amp;rsquo;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Diamond_cubic_animation.gif&#34; alt=&#34;Diamond model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Animation from &lt;a href=&#34;https://en.wikipedia.org/wiki/Diamond_cubic&#34;&gt;Wikipedia&lt;/a&gt;. Much like how two-dimensional shapes can be used to cover the plane, tiny versions of the above can be put together in three-dimensional space, and this is the structure of diamond. Generally, beautiful crystals have this kind of structure (but with other symmetries).&lt;/p&gt;
+&lt;p&gt;Scientists can try to work out the structures and symmetries of these objects by shining X-rays at them and looking at the patterns this makes on a screen. In the 1980s, crystallographer Dan Shechtman found the following image from this kind of experiment:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;diffraction.jpg&#34; alt=&#34;Diffraction of quasicrystal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Notice that there is a beautiful pattern of spots. Therefore, the material he was testing &lt;strong&gt;must be highly organised&lt;/strong&gt;! On the other hand, it turns out to have &amp;lsquo;forbidden symmetries&amp;rsquo; so &lt;strong&gt;could not be based on a periodically repeating pattern&lt;/strong&gt;! Therefore, he had shown that ordered but non-periodic patterns, like 3d versions of the hat (or, then, Penrose) tiles, can be made. The scientific community was initially very sceptical (and in some cases, rudely critical) of his work. However, we now know more, that these really are a new kind of aperiodically ordered material, and he was vindicated by winning the Nobel Prize (one of the most important in science), in Chemistry, in 2011.&lt;/p&gt;
 &lt;p&gt;We are still exploring what applications these materials might have. Perhaps interesting and useful materials can be made from these so-called &amp;lsquo;quasi-crystals&amp;rsquo;. And mathematicians study such structures in a new area of research, called &lt;strong&gt;Aperiodic Order&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;tiling-activity&#34;&gt;Tiling activity&lt;/h2&gt;
-&lt;p&gt;You can think of the hat as like a jigsaw piece, just for one of the world&amp;rsquo;s hardest jigsaws (and one that goes on forever, with only one shape of piece)! However, the tilings it can make, whilst never periodically repeating, still have a lot of interesting structure. They&amp;rsquo;re not totally random! Actually, if you try to just randomly place them together, one quickly makes lots of mistakes. It gets harder and harder, the further you tile (although don&amp;rsquo;t let that stop you experimenting for a while!).&lt;/p&gt;
+&lt;h2 id=&#34;tiling-forever-and-a-challenge-for-at-home&#34;&gt;Tiling forever and a challenge for at home&lt;/h2&gt;
+&lt;p&gt;You can think of the hat as like a jigsaw piece, just for one of the world&amp;rsquo;s hardest jigsaws (and one that goes on forever, with only one shape of piece!). However, the tilings it can make, whilst never periodically repeating, still have a lot of interesting structure. They&amp;rsquo;re not totally random!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Challenge, Step 1:&lt;/strong&gt; Try print a few sheets of the following hat tiles, and carefully cut them out. If you click on the image, you can get a pdf file if that&amp;rsquo;s easier for you:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../hat/hat_printer.pdf&#34;&gt;&lt;img alt=&#34;Hat tiles to print&#34; src=&#34;../../hat/hat_printer.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;See how big of a patch you can make from them!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Print the (two-sided) pdf &lt;a href=&#34;H7_and_H8_hat_templates.pdf&#34;&gt;at this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../hat_pics/hat_printer.pdf&#34;&gt;&lt;img src=&#34;../../hat_pics/hat_printer.png&#34; alt=&#34;Hat tiles to print&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Print the (two-sided) pdf &lt;a href=&#34;../../hat_pics/H7_and_H8_hat_templates.pdf&#34;&gt;at this link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Each side has a template for a &amp;lsquo;cluster&amp;rsquo; or &amp;lsquo;patch&amp;rsquo; of tiles, one with 7 tiles and one with 8.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Try covering the template regions precisely with hat tiles. When you do, tape them together for later! Make quite a lot of the 8-tile clusters (around 16 or so, to start with) and just a couple of the 7-tile clusters, those are much rarer.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Now try to put these clusters together!&lt;/p&gt;
-&lt;p&gt;In Step 3, you found that the tiles groups into these clusters. In Step 4, you might see that these clusters can form bigger &amp;lsquo;super-clusters&amp;rsquo;. These super-clusters in turn can group into super-super-clusters, and so on, this keeps going forever, with similar kinds of building instructions between each level. All possible hat tilings have this kind of &amp;lsquo;hierarchy&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;In Step 3, you found that the tiles groups into these clusters. In Step 4, you might see that these clusters can form bigger &amp;lsquo;super-clusters&amp;rsquo;. These super-clusters can be built, and together group into super-super-clusters too, and so on, this keeps going forever, with similar building instructions between each level! All possible hat tilings have this kind of &amp;lsquo;hierarchy&amp;rsquo;.&lt;/p&gt;
 &lt;p&gt;A hint of how this might work can be seen in Figure 2.11 (page 19) of the newest version of the discovers&amp;rsquo; paper &lt;a href=&#34;https://arxiv.org/pdf/2303.10798&#34;&gt;here&lt;/a&gt;. Trying to make this precise is hard, but it is one way of showing the tile can tile forever and only non-periodically.&lt;/p&gt;
-&lt;p&gt;Amazingly, it turns out that lots of other interesting non-periodic tile sets, like the Penrose tiles earlier, also have this hierarchical structure (and others)! And there will certainly be many new fascinating patterns we discover in the future too!&lt;/p&gt;
+&lt;p&gt;Lots of other interesting non-periodic tile sets, like the Penrose tiles earlier, also have this hierarchical structure! And there will certainly be many interesting, new versions we discover in the future too, a whole world of fascinating patterns is there to be explored.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/notes/</link>
+      <link>//localhost:1313/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/notes/</guid>
+      <guid>//localhost:1313/notes/</guid>
       <description>&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../maths_notes/AT.pdf&#34;&gt;Algebraic topology notes&lt;/a&gt; for masters level course taught at Durham University, Michaelmas term of 2017&amp;ndash;18. They&amp;rsquo;re rather slow paced and overly wordy, so I also made a distilled version &amp;mdash; several students told me that they appreciated the extra detail though.&lt;/li&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title></title>
-      <link>/teaching/</link>
+      <link>//localhost:1313/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/</guid>
+      <guid>//localhost:1313/teaching/</guid>
       <description>&lt;h1 id=&#34;next-academic-year&#34;&gt;Next academic year&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;H42PPY (Aerospace Maths 2)&lt;/li&gt;
@@ -151,7 +151,7 @@
 &lt;/li&gt;
 &lt;li&gt;2017 (Durham University)
 &lt;ul&gt;
-&lt;li&gt;Algebraic Topology (4th year course, ~25 students) &lt;a href=&#34;/notes/&#34;&gt;notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Algebraic Topology (4th year course, ~25 students) &lt;a href=&#34;//localhost:1313/notes/&#34;&gt;notes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Geometric Topology (2nd year course, ~70 students)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -167,10 +167,10 @@
     
     <item>
       <title>Miscs</title>
-      <link>/misc/</link>
+      <link>//localhost:1313/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/misc/</guid>
+      <guid>//localhost:1313/misc/</guid>
       <description></description>
     </item>
     
