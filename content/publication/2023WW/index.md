@@ -1,6 +1,6 @@
 ---
 title: "An aperiodic tile with edge-to-edge orientational matching rules"
-date: 2021-10-18
+date: 2023-07-18
 publishDate: 2019-06-18T21:50:45.634663Z
 authors: ["James Walton", "Michael Whittaker"]
 publication_types: ["1"]
