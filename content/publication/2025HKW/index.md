@@ -11,7 +11,7 @@ tags: ["preprint","52C23", "Mathematics - Dynamical Systems"]
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2509.21001
+  url: https://arxiv.org/abs/2512.13659
 doi: 
 ---
 
