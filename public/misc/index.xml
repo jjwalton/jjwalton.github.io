@@ -20,14 +20,14 @@
       <description>&lt;h1 id=&#34;latex-tips&#34;&gt;LaTeX Tips&lt;/h1&gt;
 &lt;p&gt;Below I&amp;rsquo;ve recorded a few LaTeX tips which don&amp;rsquo;t often appear in a first tutorial but I still wish I&amp;rsquo;d known earlier. There are also some personal preferences which improve readability (for me personally).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#syntax-imposters&#34;&gt;Syntax imposters&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#characters-are-cheap&#34;&gt;Characters are cheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#syntax-synonyms&#34;&gt;Syntactic synonyms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#blank-space&#34;&gt;Blank space&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#macros&#34;&gt;Macros&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#folder-structure&#34;&gt;Folder structure&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#course-material-maintenance&#34;&gt;Course material maintenance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jjwalton.github.io/misc/latex_tips/#simple-beamer-slides&#34;&gt;Simple Beamer slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;syntax-imposters&#34;&gt;Syntax imposters&lt;/h2&gt;
+&lt;h2 id=&#34;syntax-synonyms&#34;&gt;Syntax synonyms&lt;/h2&gt;
 &lt;p&gt;Some commands produces the symbols you want when there&amp;rsquo;s a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the &amp;ldquo;approved&amp;rdquo; option without being the most commonly used!&lt;/p&gt;
 &lt;p&gt;The below produce marginal differences in spacing:&lt;/p&gt;
 &lt;ul&gt;
@@ -66,7 +66,7 @@
 &lt;p&gt;There is an analogous variant &lt;code&gt;\(...\)&lt;/code&gt; instead of &lt;code&gt;$...$&lt;/code&gt; for inline equations which seems to be very rarely used (I&amp;rsquo;ve only just started using it). Again, it&amp;rsquo;s the &amp;ldquo;approved&amp;rdquo; version for a reason I don&amp;rsquo;t remember.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;characters-are-cheap&#34;&gt;Characters are cheap&lt;/h2&gt;
+&lt;h2 id=&#34;blank-space&#34;&gt;Blank space&lt;/h2&gt;
 &lt;p&gt;For me, cramped LaTeX code is a pain to read. It doesn&amp;rsquo;t cost anything to add extra spaces or tabs, which can give the code some more room to breathe. Readability should be favoured over character count:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use of &lt;code&gt;\[ ... \]&lt;/code&gt; for display equations is mentioned above. I personally like to put the brackets on their own lines so that the display equation has some space around it (as it will do in your compiled output):
@@ -208,13 +208,23 @@ for all \(\ell &amp;gt; 0\).
       <description>&lt;h1 id=&#34;links&#34;&gt;Links&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Nottingham&amp;rsquo;s &lt;a href=&#34;https://www.nottingham.ac.uk/mathematics/&#34;&gt;School of Mathematical Sciences&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;For those interested in &lt;a href=&#34;https://arxiv.org/pdf/1512.05104&#34;&gt;Aperiodic Order&lt;/a&gt;, the UK has a group that meets semi-regularly, the &lt;a href=&#34;https://sites.google.com/view/thegrimmnetwork/home&#34;&gt;Grimm Network&lt;/a&gt;. Echoing the late &lt;a href=&#34;https://livrepository.liverpool.ac.uk/3152055/1/Obituary%20of%20Uwe%20Grimm,%20Professor%20of%20Mathematics.pdf&#34;&gt;Uwe Grimm&lt;/a&gt;&amp;rsquo;s approach to fostering a dialogue between those working on the purer mathematics sides of the subject with experimentalists, or those working closer to the physical theory of quasicrystals (as well as artists!), typical meetings have both mathematics and physics contributions.&lt;/li&gt;
 &lt;li&gt;Bielefeld&amp;rsquo;s wonderful &lt;a href=&#34;https://tilings.math.uni-bielefeld.de/&#34;&gt;Tiling Encyclopedia&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;The &lt;a href=&#34;https://www.lms.ac.uk/&#34;&gt;London Mathematical Society&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;http://sarah-whitehouse.staff.shef.ac.uk/ttt/TTTonWWW.htm&#34;&gt;Transpennine Topology Triangle&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://sarah-whitehouse.sites.sheffield.ac.uk/transalpine-topology-tetrahedron&#34;&gt;Transpennine Topology &lt;del&gt;Triangle&lt;/del&gt; Tetrahedron&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://apod.nasa.gov/apod/&#34;&gt;Astronomy picture of the day&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.haskell.org/&#34;&gt;Haskell&lt;/a&gt; is an interesting purely functional programming language, with design informed by category theory: it has &lt;a href=&#34;https://wiki.haskell.org/Functor&#34;&gt;functors&lt;/a&gt;, &lt;a href=&#34;https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf&#34;&gt;theorems for free&lt;/a&gt; and &lt;a href=&#34;https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/&#34;&gt;monads&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; was used to build this page, using the &lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic theme&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://detexify.kirelabs.org/classify.html&#34;&gt;Detexify&lt;/a&gt; &amp;mdash; scribble a symbol to get LaTeX code for it (or, quite often, discover that your desired symbol probably doesn&amp;rsquo;t exist).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.haskell.org/&#34;&gt;Haskell&lt;/a&gt; is an interesting purely functional programming language, with design informed by Category Theory: it has &lt;a href=&#34;https://wiki.haskell.org/Functor&#34;&gt;functors&lt;/a&gt;, &lt;a href=&#34;https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf&#34;&gt;theorems for free&lt;/a&gt; and &lt;a href=&#34;https://bartoszmilewski.com/2016/11/21/monads-programmers-definition/&#34;&gt;monads&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; was used to build this page.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://detexify.kirelabs.org/classify.html&#34;&gt;Detexify&lt;/a&gt; &amp;mdash; scribble a symbol to get LaTeX code for it (if it exists, and you&amp;rsquo;re good enough at drawing).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nrich.maths.org/&#34;&gt;nRich&lt;/a&gt; is a lovely source of mathematics problem-solving questions for curious, younger mathematics students.&lt;/li&gt;
+&lt;li&gt;It is a pleasure to work with the following groups on outreach programmes:
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://amsp.org.uk/&#34;&gt;AMSP&lt;/a&gt; (Advanced Mathematic&amp;rsquo;s Support Programme)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amsp.org.uk/&#34;&gt;Axiom Maths&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wesolveproblems.org.uk/&#34;&gt;We Solve Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The HG Foundation&amp;rsquo;s &lt;a href=&#34;https://www.thehgfoundation.com/partnerships/maths-online-programmes&#34;&gt;mA*ths Online Programme&lt;/a&gt; (although I wish I knew how I should pronounce it verbally)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

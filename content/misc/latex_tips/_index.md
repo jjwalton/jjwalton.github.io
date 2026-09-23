@@ -2,15 +2,15 @@
 
 Below I've recorded a few LaTeX tips which don't often appear in a first tutorial but I still wish I'd known earlier. There are also some personal preferences which improve readability (for me personally).
 
-- [Syntax imposters](#syntax-imposters)
-- [Characters are cheap](#characters-are-cheap)
+- [Syntactic synonyms](#syntax-synonyms)
+- [Blank space](#blank-space)
 - [Macros](#macros)
 - [Folder structure](#folder-structure)
 - [Course material maintenance](#course-material-maintenance)
 - [Simple Beamer slides](#simple-beamer-slides)
 
 
-Syntax imposters
+Syntax synonyms
 ---------------------
 
 Some commands produces the symbols you want when there's a preferred variant (which may produce subtle differences). As a result, I bet that in some cases below the suggestion may be the "approved" option without being the most commonly used!
@@ -46,7 +46,7 @@ Writing display equations (as opposed to inline equations):
 - There is an analogous variant `\(...\)` instead of `$...$` for inline equations which seems to be very rarely used (I've only just started using it). Again, it's the "approved" version for a reason I don't remember.
 
 
-Characters are cheap
+Blank space
 ---------------------
 
 For me, cramped LaTeX code is a pain to read. It doesn't cost anything to add extra spaces or tabs, which can give the code some more room to breathe. Readability should be favoured over character count:
